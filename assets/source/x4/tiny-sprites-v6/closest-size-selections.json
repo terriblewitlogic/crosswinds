@@ -1,0 +1,104 @@
+[
+  {
+    "id": "grain",
+    "name": "Grain",
+    "category": "Goods",
+    "target": [
+      24,
+      24
+    ],
+    "source": "generated-refined.png",
+    "search_box": [
+      250,
+      255,
+      325,
+      305
+    ],
+    "current": "good-0.png"
+  },
+  {
+    "id": "porcelain",
+    "name": "Porcelain",
+    "category": "Goods",
+    "target": [
+      24,
+      24
+    ],
+    "source": "generated-refined.png",
+    "search_box": [
+      795,
+      255,
+      900,
+      305
+    ],
+    "current": "good-7.png"
+  },
+  {
+    "id": "clocktower",
+    "name": "Kingsfall clocktower",
+    "category": "Landmark",
+    "target": [
+      64,
+      56
+    ],
+    "source": "generated-refined.png",
+    "search_box": [
+      250,
+      592,
+      325,
+      650
+    ],
+    "current": "landmark-0.png"
+  },
+  {
+    "id": "office",
+    "name": "Merchant office",
+    "category": "Facility base \u00b7 8 px reserved above for flags",
+    "target": [
+      48,
+      32
+    ],
+    "source": "generated-refined.png",
+    "search_box": [
+      795,
+      592,
+      900,
+      650
+    ],
+    "current": "facility-0-0.png"
+  },
+  {
+    "id": "warehouse",
+    "name": "Warehouse",
+    "category": "Facility base \u00b7 8 px reserved above for flags",
+    "target": [
+      48,
+      32
+    ],
+    "source": "generated-refined.png",
+    "search_box": [
+      795,
+      945,
+      900,
+      995
+    ],
+    "current": "facility-1-0.png"
+  },
+  {
+    "id": "meridian",
+    "name": "Meridian seal",
+    "category": "Region stamp",
+    "target": [
+      40,
+      40
+    ],
+    "source": "generated-refined.png",
+    "search_box": [
+      250,
+      945,
+      325,
+      995
+    ],
+    "current": "region-stamp-2.png"
+  }
+]

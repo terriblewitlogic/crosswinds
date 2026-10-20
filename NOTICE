@@ -1,0 +1,53 @@
+Third-party material in this repository and in the firmware built from it.
+The MIT License in LICENSE covers the Crosswinds code. The notes below cover
+what it does not.
+
+LovyanGFX
+  The game draws through LovyanGFX 1.2.24, fetched at build time and linked into
+  the firmware. Its library manifest declares MIT and BSD-2-Clause; see
+  https://github.com/lovyan03/LovyanGFX for the license texts.
+  Four of its bundled fonts are used (FreeSans 12pt, FreeSansBold 18pt and 24pt,
+  FreeSerifBold 24pt). These are GNU FreeFont faces in the Adafruit GFX format,
+  distributed under the GNU GPL with the FreeFont font-embedding exception.
+
+Spleen 5x8 (ui_fonts.h)
+  Extracted from u8g2's font files. https://github.com/fcambus/spleen
+
+  Copyright (c) 2018-2022, Frederic Cambus
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are met:
+
+  1. Redistributions of source code must retain the above copyright notice, this
+     list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright notice,
+     this list of conditions and the following disclaimer in the documentation
+     and/or other materials provided with the distribution.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+  FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+  OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Hardware facts
+  The pin assignments in x4_pins.h come from the Adafruit "CircuitPython on the
+  Xteink X4" pinout guide, the FreeInk SDK board profile used by CrossPoint
+  Reader, and the xteink-x4-sample sketch. The bezel inset in display.h is
+  CrossPoint Reader's measurement. https://github.com/crosspoint-reader/crosspoint-reader
+
+Artwork (img_*.h, x4_routes.h, assets/source)
+  The illustrations were generated with OpenAI's image generation tool, then
+  reduced to 1-bit and packed by the scripts in tools/assets. The maintainer makes
+  no copyright claim over the generated images beyond what the law gives them.
+
+Code and text
+  Most of the code and in-game writing was produced with Claude Code (Anthropic)
+  and Codex (OpenAI) at the maintainer's direction. The original development
+  history is not part of this repository, which starts from a single commit.

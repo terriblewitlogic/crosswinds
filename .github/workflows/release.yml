@@ -1,0 +1,47 @@
+name: Release
+
+# Builds the firmware for a published release and attaches it, with checksums.
+#   app   write at 0x10000; keeps saves (only valid on a device already running this firmware)
+#   full  write at 0x0; replaces everything, including saves
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  firmware:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.release.tag_name }}
+
+      - uses: arduino/setup-arduino-cli@v2
+
+      - name: Install the ESP32 core
+        run: |
+          arduino-cli config init
+          arduino-cli config add board_manager.additional_urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+          arduino-cli core update-index
+          arduino-cli core install esp32:esp32@3.3.10
+
+      - name: Fetch LovyanGFX
+        run: make -C tools/host deps
+
+      - name: Build the X4 firmware
+        run: make device-x4
+
+      - name: Attach the firmware
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          cd tools/device_build/x4
+          cp crosswinds.ino.bin "crosswinds-x4-${TAG}-app.bin"
+          cp crosswinds.ino.merged.bin "crosswinds-x4-${TAG}-full.bin"
+          sha256sum "crosswinds-x4-${TAG}-app.bin" "crosswinds-x4-${TAG}-full.bin" > "crosswinds-x4-${TAG}-sha256.txt"
+          gh release upload "$TAG" "crosswinds-x4-${TAG}-app.bin" "crosswinds-x4-${TAG}-full.bin" "crosswinds-x4-${TAG}-sha256.txt" \
+            --repo "$GITHUB_REPOSITORY" --clobber

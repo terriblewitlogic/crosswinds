@@ -1,0 +1,1747 @@
+[
+  {
+    "name": "GOOD_DETAIL_0",
+    "source": "assets/source/x4/tiny-sprites-v6/generated-native-reference.png",
+    "crop": [
+      278,
+      262,
+      310,
+      291
+    ],
+    "sourceInkSize": [
+      32,
+      29
+    ],
+    "nativeSize": [
+      34,
+      31
+    ],
+    "slot": [
+      72,
+      72
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f5a9c3f2c808ffab0c05bcce06b8302c1abf6bdb29e08a23cbe0f2a34449cf75"
+  },
+  {
+    "name": "GOOD_DETAIL_1",
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "crop": [
+      281,
+      261,
+      345,
+      312
+    ],
+    "sourceInkSize": [
+      64,
+      51
+    ],
+    "nativeSize": [
+      66,
+      53
+    ],
+    "slot": [
+      72,
+      72
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43"
+  },
+  {
+    "name": "GOOD_DETAIL_2",
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "crop": [
+      813,
+      261,
+      882,
+      316
+    ],
+    "sourceInkSize": [
+      69,
+      55
+    ],
+    "nativeSize": [
+      71,
+      57
+    ],
+    "slot": [
+      72,
+      72
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43"
+  },
+  {
+    "name": "GOOD_DETAIL_3",
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "crop": [
+      282,
+      587,
+      342,
+      642
+    ],
+    "sourceInkSize": [
+      60,
+      55
+    ],
+    "nativeSize": [
+      62,
+      57
+    ],
+    "slot": [
+      72,
+      72
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43"
+  },
+  {
+    "name": "GOOD_DETAIL_4",
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "crop": [
+      817,
+      585,
+      881,
+      643
+    ],
+    "sourceInkSize": [
+      64,
+      58
+    ],
+    "nativeSize": [
+      66,
+      60
+    ],
+    "slot": [
+      72,
+      72
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43"
+  },
+  {
+    "name": "GOOD_DETAIL_5",
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "crop": [
+      284,
+      908,
+      341,
+      974
+    ],
+    "sourceInkSize": [
+      57,
+      66
+    ],
+    "nativeSize": [
+      59,
+      68
+    ],
+    "slot": [
+      72,
+      72
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43"
+  },
+  {
+    "name": "GOOD_DETAIL_6",
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "crop": [
+      829,
+      912,
+      860,
+      975
+    ],
+    "sourceInkSize": [
+      31,
+      63
+    ],
+    "nativeSize": [
+      33,
+      65
+    ],
+    "slot": [
+      72,
+      72
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43"
+  },
+  {
+    "name": "GOOD_DETAIL_7",
+    "source": "assets/source/x4/tiny-sprites-v6/generated-native-reference.png",
+    "crop": [
+      826,
+      265,
+      860,
+      291
+    ],
+    "sourceInkSize": [
+      34,
+      26
+    ],
+    "nativeSize": [
+      36,
+      28
+    ],
+    "slot": [
+      72,
+      72
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f5a9c3f2c808ffab0c05bcce06b8302c1abf6bdb29e08a23cbe0f2a34449cf75"
+  },
+  {
+    "name": "LANDMARK_DETAIL_0",
+    "source": "assets/source/x4/tiny-sprites-v6/generated-native-reference.png",
+    "crop": [
+      285,
+      601,
+      332,
+      671
+    ],
+    "sourceInkSize": [
+      47,
+      70
+    ],
+    "nativeSize": [
+      49,
+      72
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f5a9c3f2c808ffab0c05bcce06b8302c1abf6bdb29e08a23cbe0f2a34449cf75"
+  },
+  {
+    "name": "LANDMARK_DETAIL_1",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "crop": [
+      273,
+      244,
+      398,
+      347
+    ],
+    "sourceInkSize": [
+      125,
+      103
+    ],
+    "nativeSize": [
+      127,
+      105
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06"
+  },
+  {
+    "name": "LANDMARK_DETAIL_2",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "crop": [
+      814,
+      239,
+      920,
+      346
+    ],
+    "sourceInkSize": [
+      106,
+      107
+    ],
+    "nativeSize": [
+      108,
+      109
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06"
+  },
+  {
+    "name": "LANDMARK_DETAIL_3",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "crop": [
+      273,
+      595,
+      388,
+      695
+    ],
+    "sourceInkSize": [
+      115,
+      100
+    ],
+    "nativeSize": [
+      117,
+      102
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06"
+  },
+  {
+    "name": "LANDMARK_DETAIL_4",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "crop": [
+      808,
+      597,
+      933,
+      695
+    ],
+    "sourceInkSize": [
+      125,
+      98
+    ],
+    "nativeSize": [
+      127,
+      100
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06"
+  },
+  {
+    "name": "LANDMARK_DETAIL_5",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "crop": [
+      278,
+      942,
+      389,
+      1027
+    ],
+    "sourceInkSize": [
+      111,
+      85
+    ],
+    "nativeSize": [
+      113,
+      87
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06"
+  },
+  {
+    "name": "LANDMARK_DETAIL_6",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "crop": [
+      817,
+      935,
+      917,
+      1030
+    ],
+    "sourceInkSize": [
+      100,
+      95
+    ],
+    "nativeSize": [
+      102,
+      97
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06"
+  },
+  {
+    "name": "LANDMARK_DETAIL_7",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "crop": [
+      255,
+      266,
+      377,
+      358
+    ],
+    "sourceInkSize": [
+      122,
+      92
+    ],
+    "nativeSize": [
+      124,
+      94
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff"
+  },
+  {
+    "name": "LANDMARK_DETAIL_8",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "crop": [
+      810,
+      261,
+      895,
+      367
+    ],
+    "sourceInkSize": [
+      85,
+      106
+    ],
+    "nativeSize": [
+      87,
+      108
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff"
+  },
+  {
+    "name": "LANDMARK_DETAIL_9",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "crop": [
+      267,
+      593,
+      365,
+      728
+    ],
+    "sourceInkSize": [
+      98,
+      135
+    ],
+    "nativeSize": [
+      100,
+      137
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff"
+  },
+  {
+    "name": "LANDMARK_DETAIL_10",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "crop": [
+      769,
+      601,
+      927,
+      720
+    ],
+    "sourceInkSize": [
+      158,
+      119
+    ],
+    "nativeSize": [
+      160,
+      121
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff"
+  },
+  {
+    "name": "LANDMARK_DETAIL_11",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "crop": [
+      253,
+      933,
+      399,
+      1046
+    ],
+    "sourceInkSize": [
+      146,
+      113
+    ],
+    "nativeSize": [
+      148,
+      115
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff"
+  },
+  {
+    "name": "LANDMARK_DETAIL_12",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "crop": [
+      780,
+      937,
+      916,
+      1058
+    ],
+    "sourceInkSize": [
+      136,
+      121
+    ],
+    "nativeSize": [
+      138,
+      123
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff"
+  },
+  {
+    "name": "LANDMARK_DETAIL_13",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "crop": [
+      279,
+      268,
+      400,
+      365
+    ],
+    "sourceInkSize": [
+      121,
+      97
+    ],
+    "nativeSize": [
+      123,
+      99
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2"
+  },
+  {
+    "name": "LANDMARK_DETAIL_14",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "crop": [
+      788,
+      276,
+      919,
+      358
+    ],
+    "sourceInkSize": [
+      131,
+      82
+    ],
+    "nativeSize": [
+      133,
+      84
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2"
+  },
+  {
+    "name": "LANDMARK_DETAIL_15",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "crop": [
+      274,
+      599,
+      401,
+      684
+    ],
+    "sourceInkSize": [
+      127,
+      85
+    ],
+    "nativeSize": [
+      129,
+      87
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2"
+  },
+  {
+    "name": "LANDMARK_DETAIL_16",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "crop": [
+      801,
+      598,
+      922,
+      689
+    ],
+    "sourceInkSize": [
+      121,
+      91
+    ],
+    "nativeSize": [
+      123,
+      93
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2"
+  },
+  {
+    "name": "LANDMARK_DETAIL_17",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "crop": [
+      271,
+      945,
+      408,
+      1021
+    ],
+    "sourceInkSize": [
+      137,
+      76
+    ],
+    "nativeSize": [
+      139,
+      78
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2"
+  },
+  {
+    "name": "LANDMARK_DETAIL_18",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "crop": [
+      780,
+      940,
+      916,
+      1033
+    ],
+    "sourceInkSize": [
+      136,
+      93
+    ],
+    "nativeSize": [
+      138,
+      95
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2"
+  },
+  {
+    "name": "LANDMARK_DETAIL_19",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-d-generated.png",
+    "crop": [
+      282,
+      264,
+      351,
+      335
+    ],
+    "sourceInkSize": [
+      69,
+      71
+    ],
+    "nativeSize": [
+      71,
+      73
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "ab909faa64424b85b6eb51edb8855a8e0de5db5f15c63db315d8e0d9bb9b5eed"
+  },
+  {
+    "name": "LANDMARK_DETAIL_20",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-d-generated.png",
+    "crop": [
+      821,
+      269,
+      907,
+      334
+    ],
+    "sourceInkSize": [
+      86,
+      65
+    ],
+    "nativeSize": [
+      88,
+      67
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "ab909faa64424b85b6eb51edb8855a8e0de5db5f15c63db315d8e0d9bb9b5eed"
+  },
+  {
+    "name": "LANDMARK_DETAIL_21",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-d-generated.png",
+    "crop": [
+      274,
+      610,
+      355,
+      659
+    ],
+    "sourceInkSize": [
+      81,
+      49
+    ],
+    "nativeSize": [
+      83,
+      51
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "ab909faa64424b85b6eb51edb8855a8e0de5db5f15c63db315d8e0d9bb9b5eed"
+  },
+  {
+    "name": "LANDMARK_DETAIL_22",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-d-generated.png",
+    "crop": [
+      824,
+      600,
+      899,
+      671
+    ],
+    "sourceInkSize": [
+      75,
+      71
+    ],
+    "nativeSize": [
+      77,
+      73
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "ab909faa64424b85b6eb51edb8855a8e0de5db5f15c63db315d8e0d9bb9b5eed"
+  },
+  {
+    "name": "LANDMARK_DETAIL_23",
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-d-generated.png",
+    "crop": [
+      291,
+      914,
+      336,
+      989
+    ],
+    "sourceInkSize": [
+      45,
+      75
+    ],
+    "nativeSize": [
+      47,
+      77
+    ],
+    "slot": [
+      192,
+      168
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "ab909faa64424b85b6eb51edb8855a8e0de5db5f15c63db315d8e0d9bb9b5eed"
+  },
+  {
+    "name": "FACILITY_DETAIL_0",
+    "source": "assets/source/x4/tiny-sprites-v6/generated-native-reference.png",
+    "crop": [
+      822,
+      611,
+      882,
+      662
+    ],
+    "sourceInkSize": [
+      60,
+      51
+    ],
+    "nativeSize": [
+      62,
+      53
+    ],
+    "slot": [
+      100,
+      84
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f5a9c3f2c808ffab0c05bcce06b8302c1abf6bdb29e08a23cbe0f2a34449cf75"
+  },
+  {
+    "name": "FACILITY_DETAIL_1",
+    "source": "assets/source/x4/tiny-sprites-v6/generated-native-reference.png",
+    "crop": [
+      820,
+      956,
+      885,
+      996
+    ],
+    "sourceInkSize": [
+      65,
+      40
+    ],
+    "nativeSize": [
+      67,
+      42
+    ],
+    "slot": [
+      100,
+      84
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f5a9c3f2c808ffab0c05bcce06b8302c1abf6bdb29e08a23cbe0f2a34449cf75"
+  },
+  {
+    "name": "FACILITY_DETAIL_2",
+    "source": "assets/source/x4/full-illustrations-v8/seals-shipyard-generated.png",
+    "crop": [
+      810,
+      943,
+      906,
+      1018
+    ],
+    "sourceInkSize": [
+      96,
+      75
+    ],
+    "nativeSize": [
+      98,
+      77
+    ],
+    "slot": [
+      100,
+      84
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "aaf43fade144b52cd3ebad68e2437950ccfce1bb3f026595b0063564e9f3596b"
+  },
+  {
+    "name": "DOCK_STAGE_0",
+    "source": "assets/source/x4/native-size-v9/dock-source.png",
+    "crop": [
+      291,
+      370,
+      436,
+      473
+    ],
+    "sourceInkSize": [
+      145,
+      103
+    ],
+    "nativeSize": [
+      147,
+      105
+    ],
+    "slot": [
+      160,
+      128
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "b397c607a630fac290ec509b157bd94f7426184166064f16811280b5478b1653"
+  },
+  {
+    "name": "DOCK_STAGE_1",
+    "source": "assets/source/x4/native-size-v9/dock-source.png",
+    "crop": [
+      813,
+      370,
+      966,
+      475
+    ],
+    "sourceInkSize": [
+      153,
+      105
+    ],
+    "nativeSize": [
+      155,
+      107
+    ],
+    "slot": [
+      160,
+      128
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "b397c607a630fac290ec509b157bd94f7426184166064f16811280b5478b1653"
+  },
+  {
+    "name": "DOCK_STAGE_2",
+    "source": "assets/source/x4/native-size-v9/dock-source.png",
+    "crop": [
+      288,
+      857,
+      437,
+      957
+    ],
+    "sourceInkSize": [
+      149,
+      100
+    ],
+    "nativeSize": [
+      151,
+      102
+    ],
+    "slot": [
+      160,
+      128
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "b397c607a630fac290ec509b157bd94f7426184166064f16811280b5478b1653"
+  },
+  {
+    "name": "DOCK_STAGE_3",
+    "source": "assets/source/x4/native-size-v9/dock-source.png",
+    "crop": [
+      816,
+      834,
+      966,
+      957
+    ],
+    "sourceInkSize": [
+      150,
+      123
+    ],
+    "nativeSize": [
+      152,
+      125
+    ],
+    "slot": [
+      160,
+      128
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "b397c607a630fac290ec509b157bd94f7426184166064f16811280b5478b1653"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_0",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      145,
+      158,
+      226,
+      251
+    ],
+    "sourceInkSize": [
+      81,
+      93
+    ],
+    "nativeSize": [
+      83,
+      95
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_1",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      427,
+      154,
+      509,
+      252
+    ],
+    "sourceInkSize": [
+      82,
+      98
+    ],
+    "nativeSize": [
+      84,
+      100
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_2",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      709,
+      158,
+      791,
+      252
+    ],
+    "sourceInkSize": [
+      82,
+      94
+    ],
+    "nativeSize": [
+      84,
+      96
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_3",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      991,
+      157,
+      1072,
+      252
+    ],
+    "sourceInkSize": [
+      81,
+      95
+    ],
+    "nativeSize": [
+      83,
+      97
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_4",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      150,
+      438,
+      233,
+      533
+    ],
+    "sourceInkSize": [
+      83,
+      95
+    ],
+    "nativeSize": [
+      85,
+      97
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_5",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      429,
+      439,
+      513,
+      533
+    ],
+    "sourceInkSize": [
+      84,
+      94
+    ],
+    "nativeSize": [
+      86,
+      96
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_6",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      704,
+      439,
+      793,
+      535
+    ],
+    "sourceInkSize": [
+      89,
+      96
+    ],
+    "nativeSize": [
+      91,
+      98
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_7",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      989,
+      438,
+      1077,
+      535
+    ],
+    "sourceInkSize": [
+      88,
+      97
+    ],
+    "nativeSize": [
+      90,
+      99
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_8",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      148,
+      718,
+      237,
+      818
+    ],
+    "sourceInkSize": [
+      89,
+      100
+    ],
+    "nativeSize": [
+      91,
+      102
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_9",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      426,
+      720,
+      515,
+      818
+    ],
+    "sourceInkSize": [
+      89,
+      98
+    ],
+    "nativeSize": [
+      91,
+      100
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_10",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      708,
+      721,
+      792,
+      820
+    ],
+    "sourceInkSize": [
+      84,
+      99
+    ],
+    "nativeSize": [
+      86,
+      101
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_11",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      991,
+      718,
+      1071,
+      818
+    ],
+    "sourceInkSize": [
+      80,
+      100
+    ],
+    "nativeSize": [
+      82,
+      102
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_12",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      150,
+      998,
+      239,
+      1098
+    ],
+    "sourceInkSize": [
+      89,
+      100
+    ],
+    "nativeSize": [
+      91,
+      102
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_13",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      426,
+      994,
+      516,
+      1100
+    ],
+    "sourceInkSize": [
+      90,
+      106
+    ],
+    "nativeSize": [
+      92,
+      108
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_14",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      707,
+      998,
+      795,
+      1097
+    ],
+    "sourceInkSize": [
+      88,
+      99
+    ],
+    "nativeSize": [
+      90,
+      101
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "CAPTAIN_DETAIL_15",
+    "source": "assets/source/x4/native-size-v9/captains-source.png",
+    "crop": [
+      992,
+      998,
+      1082,
+      1097
+    ],
+    "sourceInkSize": [
+      90,
+      99
+    ],
+    "nativeSize": [
+      92,
+      101
+    ],
+    "slot": [
+      96,
+      112
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f060ad7a6eda702e3be4bd2ad09227c58ed232b3f56a688e889a1d42cfddab3d"
+  },
+  {
+    "name": "MAP_SHIP_0",
+    "source": "assets/source/x4/native-size-v9/map-symbol-source-0.png",
+    "crop": [
+      0,
+      0,
+      30,
+      24
+    ],
+    "sourceInkSize": [
+      30,
+      24
+    ],
+    "nativeSize": [
+      32,
+      26
+    ],
+    "slot": [
+      32,
+      26
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "e091b76478a044a0d4d69230b11e4ff9e391a6361e8f56bfaf2d479e6b0bda9c",
+    "method": "native chart geometry; no image resampling"
+  },
+  {
+    "name": "MAP_SHIP_1",
+    "source": "assets/source/x4/native-size-v9/map-symbol-source-1.png",
+    "crop": [
+      0,
+      0,
+      30,
+      24
+    ],
+    "sourceInkSize": [
+      30,
+      24
+    ],
+    "nativeSize": [
+      32,
+      26
+    ],
+    "slot": [
+      32,
+      26
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "dba15fd905e53f3a6136e3caccfd14f06c56e0a94b62ac6dfd5e382fd08cae0d",
+    "method": "native chart geometry; no image resampling"
+  },
+  {
+    "name": "MAP_SHIP_2",
+    "source": "assets/source/x4/native-size-v9/map-symbol-source-2.png",
+    "crop": [
+      0,
+      0,
+      30,
+      24
+    ],
+    "sourceInkSize": [
+      30,
+      24
+    ],
+    "nativeSize": [
+      32,
+      26
+    ],
+    "slot": [
+      32,
+      26
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "2bb8bbb03868c1bd93887013f6c74bdd24d958c8bd3fb635b9ef211418d31649",
+    "method": "native chart geometry; no image resampling"
+  },
+  {
+    "name": "MAP_SHIP_3",
+    "source": "assets/source/x4/native-size-v9/map-symbol-source-3.png",
+    "crop": [
+      0,
+      0,
+      30,
+      24
+    ],
+    "sourceInkSize": [
+      30,
+      24
+    ],
+    "nativeSize": [
+      32,
+      26
+    ],
+    "slot": [
+      32,
+      26
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "f6f08f48774198e77b82c6ec05d9bd08bb63f3a6f644d097b0d3a8c8e1045c32",
+    "method": "native chart geometry; no image resampling"
+  },
+  {
+    "name": "MAP_SHIP_4",
+    "source": "assets/source/x4/native-size-v9/map-symbol-source-4.png",
+    "crop": [
+      0,
+      0,
+      30,
+      24
+    ],
+    "sourceInkSize": [
+      30,
+      24
+    ],
+    "nativeSize": [
+      32,
+      26
+    ],
+    "slot": [
+      32,
+      26
+    ],
+    "operations": [
+      "crop",
+      "threshold 168",
+      "1px transparent-exterior padding"
+    ],
+    "resized": false,
+    "sourceSha256": "a6e3892628f75a97a370b77d2c76e903ca90114084e31830f02e7a009ad46249",
+    "method": "native chart geometry; no image resampling"
+  }
+]

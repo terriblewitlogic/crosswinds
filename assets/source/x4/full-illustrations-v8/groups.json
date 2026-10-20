@@ -1,0 +1,49 @@
+{
+  "goods": [
+    "good-1",
+    "good-2",
+    "good-3",
+    "good-4",
+    "good-5",
+    "good-6"
+  ],
+  "landmarks-a": [
+    "landmark-1",
+    "landmark-2",
+    "landmark-3",
+    "landmark-4",
+    "landmark-5",
+    "landmark-6"
+  ],
+  "landmarks-b": [
+    "landmark-7",
+    "landmark-8",
+    "landmark-9",
+    "landmark-10",
+    "landmark-11",
+    "landmark-12"
+  ],
+  "landmarks-c": [
+    "landmark-13",
+    "landmark-14",
+    "landmark-15",
+    "landmark-16",
+    "landmark-17",
+    "landmark-18"
+  ],
+  "landmarks-d": [
+    "landmark-19",
+    "landmark-20",
+    "landmark-21",
+    "landmark-22",
+    "landmark-23"
+  ],
+  "seals-shipyard": [
+    "region-stamp-0",
+    "region-stamp-1",
+    "region-stamp-3",
+    "region-stamp-4",
+    "region-stamp-5",
+    "facility-2"
+  ]
+}

@@ -1,0 +1,2085 @@
+[
+  {
+    "id": "good-0",
+    "family": "good",
+    "index": 0,
+    "name": "Grain",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-0.png",
+    "description": "",
+    "inherited": "grain",
+    "source": "assets/source/x4/small-illustrations-v7/grain.png",
+    "operations": [
+      "copy approved native pixels"
+    ],
+    "sourceInkSize": [
+      24,
+      24
+    ],
+    "fittedSize": [
+      24,
+      24
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "runtimeSize": [
+      24,
+      24
+    ],
+    "sourceSha256": "26f9fb8facd714db2124146754a821d323ccb35c6d14a0a314d95efd792d6c54",
+    "sha256": "b8a9fbf8d214204c14504f3738b9788d00db6a0aec509a0cf3fb461dabe77b84"
+  },
+  {
+    "id": "good-1",
+    "family": "good",
+    "index": 1,
+    "name": "Timber",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-1.png",
+    "description": "three round-ended cut timber logs tied into a small bundle, with visible end grain",
+    "group": "goods",
+    "slot": 0,
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      281,
+      261,
+      345,
+      312
+    ],
+    "sourceInkSize": [
+      64,
+      51
+    ],
+    "fittedSize": [
+      22,
+      18
+    ],
+    "threshold": 168,
+    "scale": [
+      0.34375,
+      0.35294117647058826
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      24,
+      24
+    ],
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43",
+    "sha256": "a12d12aab3b684207cfd2a1f9a3a5a3beb43c2f323bf45dca6d820ae2635ff41"
+  },
+  {
+    "id": "good-2",
+    "family": "good",
+    "index": 2,
+    "name": "Textiles",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-2.png",
+    "description": "rolled bolt of cloth with an unfurling folded end, seen in three-quarter perspective",
+    "group": "goods",
+    "slot": 1,
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      813,
+      261,
+      882,
+      316
+    ],
+    "sourceInkSize": [
+      69,
+      55
+    ],
+    "fittedSize": [
+      22,
+      18
+    ],
+    "threshold": 168,
+    "scale": [
+      0.3188405797101449,
+      0.32727272727272727
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      24,
+      24
+    ],
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43",
+    "sha256": "329b13862a82d07771254025c39d0c934bfb8a45d0bb4ed22e153a739929cd62"
+  },
+  {
+    "id": "good-3",
+    "family": "good",
+    "index": 3,
+    "name": "Ironware",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-3.png",
+    "description": "a crossed blacksmith hammer and pair of tongs, distinct angled handles",
+    "group": "goods",
+    "slot": 2,
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      282,
+      587,
+      342,
+      642
+    ],
+    "sourceInkSize": [
+      60,
+      55
+    ],
+    "fittedSize": [
+      22,
+      20
+    ],
+    "threshold": 168,
+    "scale": [
+      0.36666666666666664,
+      0.36363636363636365
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      24,
+      24
+    ],
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43",
+    "sha256": "d37b8d2285d63dfbcace375e72dfe54a0c1ad8ec80a01d9821c17e0456a766e8"
+  },
+  {
+    "id": "good-4",
+    "family": "good",
+    "index": 4,
+    "name": "Tea",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-4.png",
+    "description": "a small wooden tea chest with lid, corner straps and a single leaf emblem",
+    "group": "goods",
+    "slot": 3,
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      817,
+      585,
+      881,
+      643
+    ],
+    "sourceInkSize": [
+      64,
+      58
+    ],
+    "fittedSize": [
+      22,
+      20
+    ],
+    "threshold": 168,
+    "scale": [
+      0.34375,
+      0.3448275862068966
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      24,
+      24
+    ],
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43",
+    "sha256": "e5f61708c611822600f40c03cd42f026407ed0f0b5a7ef248fb900e1e929a410"
+  },
+  {
+    "id": "good-5",
+    "family": "good",
+    "index": 5,
+    "name": "Spices",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-5.png",
+    "description": "an apothecary mortar and angled pestle holding spices, curved stone bowl",
+    "group": "goods",
+    "slot": 4,
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      284,
+      908,
+      341,
+      974
+    ],
+    "sourceInkSize": [
+      57,
+      66
+    ],
+    "fittedSize": [
+      19,
+      22
+    ],
+    "threshold": 168,
+    "scale": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      24,
+      24
+    ],
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43",
+    "sha256": "b0fb81314d3d1ad784c8b5b6ddc501a7066f69b3093fd6dc119bd9a2e3ac7a1f"
+  },
+  {
+    "id": "good-6",
+    "family": "good",
+    "index": 6,
+    "name": "Medicines",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-6.png",
+    "description": "a slim pale glass medicine bottle with cork and small paper label",
+    "group": "goods",
+    "slot": 5,
+    "source": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      829,
+      912,
+      860,
+      975
+    ],
+    "sourceInkSize": [
+      31,
+      63
+    ],
+    "fittedSize": [
+      11,
+      22
+    ],
+    "threshold": 168,
+    "scale": [
+      0.3548387096774194,
+      0.3492063492063492
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      24,
+      24
+    ],
+    "sourceSha256": "9f045a19646831e2e1eb2d3fd60ce6959d3a139a44a890783c94f145c4e1dc43",
+    "sha256": "dab01fcc44a1708091c29269db838117734ba011ada233c4a5f937665242e987"
+  },
+  {
+    "id": "good-7",
+    "family": "good",
+    "index": 7,
+    "name": "Porcelain",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-7.png",
+    "description": "",
+    "inherited": "porcelain",
+    "source": "assets/source/x4/small-illustrations-v7/porcelain.png",
+    "operations": [
+      "copy approved native pixels"
+    ],
+    "sourceInkSize": [
+      24,
+      24
+    ],
+    "fittedSize": [
+      24,
+      24
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "runtimeSize": [
+      24,
+      24
+    ],
+    "sourceSha256": "28cc17959904fcdc15e58cbf1b660a4e271e8a46f724bd0377b79e498480f1ac",
+    "sha256": "decd182660f01a0a125c2c3cbe9ec79ef4f24de67e1216dd8d4acb25d02ed404"
+  },
+  {
+    "id": "landmark-0",
+    "family": "landmark",
+    "index": 0,
+    "name": "Kingsfall",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-0.png",
+    "description": "squat stone clocktower with two visible clock faces and swept pyramidal roof",
+    "inherited": "clocktower",
+    "source": "assets/source/x4/small-illustrations-v7/clocktower.png",
+    "operations": [
+      "copy approved native pixels"
+    ],
+    "sourceInkSize": [
+      64,
+      56
+    ],
+    "fittedSize": [
+      64,
+      56
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "336c5da845c960950123223ccc06a38a9ad460b2c30eb51d123c9b743f0580a2",
+    "sha256": "8a8322b3facdc670608127f2a95de688a26dfee531dfe93e148a4d205f9f981d"
+  },
+  {
+    "id": "landmark-1",
+    "family": "landmark",
+    "index": 1,
+    "name": "Belmar",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-1.png",
+    "description": "two-story waterside mill with a large waterwheel, tiled roof and pale plaster upper walls",
+    "group": "landmarks-a",
+    "slot": 0,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      273,
+      244,
+      398,
+      347
+    ],
+    "sourceInkSize": [
+      125,
+      103
+    ],
+    "fittedSize": [
+      60,
+      49
+    ],
+    "threshold": 155,
+    "scale": [
+      0.48,
+      0.47572815533980584
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06",
+    "sha256": "903051c95452cb7a4bcd394561fc3e8a4bb6a86cbe40a0255ba10883f2e7876f"
+  },
+  {
+    "id": "landmark-2",
+    "family": "landmark",
+    "index": 2,
+    "name": "Northwatch",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-2.png",
+    "description": "tall timber storehouse/watchtower with a pyramidal roof, open lower posts and stacked logs at its foot",
+    "group": "landmarks-a",
+    "slot": 1,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      814,
+      239,
+      920,
+      346
+    ],
+    "sourceInkSize": [
+      106,
+      107
+    ],
+    "fittedSize": [
+      52,
+      52
+    ],
+    "threshold": 155,
+    "scale": [
+      0.49056603773584906,
+      0.48598130841121495
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06",
+    "sha256": "7a7b3ee2a510089458156aaf260d00f07b6aeab22c571c28e33460937e7f34cc"
+  },
+  {
+    "id": "landmark-3",
+    "family": "landmark",
+    "index": 3,
+    "name": "New Albion",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-3.png",
+    "description": "two tall timber dockside gantry cranes with diagonal braces, hanging hooks and clear white spaces between beams",
+    "group": "landmarks-a",
+    "slot": 2,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      273,
+      595,
+      388,
+      695
+    ],
+    "sourceInkSize": [
+      115,
+      100
+    ],
+    "fittedSize": [
+      60,
+      52
+    ],
+    "threshold": 168,
+    "scale": [
+      0.5217391304347826,
+      0.52
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06",
+    "sha256": "265a91769846ed4718536c62164eccf90c76b66cdfa80ad6ceb39f95703726bc"
+  },
+  {
+    "id": "landmark-4",
+    "family": "landmark",
+    "index": 4,
+    "name": "Port Aurelia",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-4.png",
+    "description": "wide arcaded stone spice-market canopy with a broad hipped roof and multiple open arches",
+    "group": "landmarks-a",
+    "slot": 3,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      808,
+      597,
+      933,
+      695
+    ],
+    "sourceInkSize": [
+      125,
+      98
+    ],
+    "fittedSize": [
+      60,
+      47
+    ],
+    "threshold": 168,
+    "scale": [
+      0.48,
+      0.47959183673469385
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06",
+    "sha256": "61cb2365b26170f5788ffbdbfaa20a4fa1f4144f8908037bfde34779f7134fa4"
+  },
+  {
+    "id": "landmark-5",
+    "family": "landmark",
+    "index": 5,
+    "name": "Verde Cay",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-5.png",
+    "description": "narrow timber landing jetty extending diagonally toward a small roofed shelter at its far end",
+    "group": "landmarks-a",
+    "slot": 4,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      278,
+      942,
+      389,
+      1027
+    ],
+    "sourceInkSize": [
+      111,
+      85
+    ],
+    "fittedSize": [
+      60,
+      46
+    ],
+    "threshold": 168,
+    "scale": [
+      0.5405405405405406,
+      0.5411764705882353
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06",
+    "sha256": "136ea4f3190af3b8b495f53bd38e91f7706497bc0d35482cd345c5f3ff2d29b7"
+  },
+  {
+    "id": "landmark-6",
+    "family": "landmark",
+    "index": 6,
+    "name": "San Cordel",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-6.png",
+    "description": "two-story apothecary with shaded wraparound balcony, timber posts and side stairs",
+    "group": "landmarks-a",
+    "slot": 5,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      817,
+      935,
+      917,
+      1030
+    ],
+    "sourceInkSize": [
+      100,
+      95
+    ],
+    "fittedSize": [
+      55,
+      52
+    ],
+    "threshold": 155,
+    "scale": [
+      0.55,
+      0.5473684210526316
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "9f507e177fa943699ba7f4c6b55f8920c8ba1dd28ea7f2e89b450f80263fca06",
+    "sha256": "3e24b79cb9a03c415d28f2c8eeab1a2d422d347262ccf4754f1f16b576e3cfcf"
+  },
+  {
+    "id": "landmark-7",
+    "family": "landmark",
+    "index": 7,
+    "name": "Marrow Key",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-7.png",
+    "description": "open-sided low timber rack shed with a broad roof and visible horizontal stacks of cut logs",
+    "group": "landmarks-b",
+    "slot": 0,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      255,
+      266,
+      377,
+      358
+    ],
+    "sourceInkSize": [
+      122,
+      92
+    ],
+    "fittedSize": [
+      60,
+      45
+    ],
+    "threshold": 155,
+    "scale": [
+      0.4918032786885246,
+      0.4891304347826087
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff",
+    "sha256": "90a0f424d686a0ba2cb046d7e14fd36d7048639821f4f8e31084c7614e7b4cae"
+  },
+  {
+    "id": "landmark-8",
+    "family": "landmark",
+    "index": 8,
+    "name": "Solhaven",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-8.png",
+    "description": "tall narrow grain-storage tower with sloped roof, upper grain opening and arched base door",
+    "group": "landmarks-b",
+    "slot": 1,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      810,
+      261,
+      895,
+      367
+    ],
+    "sourceInkSize": [
+      85,
+      106
+    ],
+    "fittedSize": [
+      42,
+      52
+    ],
+    "threshold": 168,
+    "scale": [
+      0.49411764705882355,
+      0.49056603773584906
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff",
+    "sha256": "75a8692eb5d6e8229b24e77bf3adefb058f7fdfa8cc711131e4291c6e4cf1931"
+  },
+  {
+    "id": "landmark-9",
+    "family": "landmark",
+    "index": 9,
+    "name": "Meridian Cape",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-9.png",
+    "description": "stout stone lighthouse with lantern balcony and a stepped stone footing",
+    "group": "landmarks-b",
+    "slot": 2,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      267,
+      593,
+      365,
+      728
+    ],
+    "sourceInkSize": [
+      98,
+      135
+    ],
+    "fittedSize": [
+      38,
+      52
+    ],
+    "threshold": 168,
+    "scale": [
+      0.3877551020408163,
+      0.3851851851851852
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff",
+    "sha256": "ad1facaa3609db424764f6fddb632792484de42af2d6916910908b2501087379"
+  },
+  {
+    "id": "landmark-10",
+    "family": "landmark",
+    "index": 10,
+    "name": "Saint Orin",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-10.png",
+    "description": "three ascending stone herb terraces with a small shelter at the top and small drying bundles",
+    "group": "landmarks-b",
+    "slot": 3,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      769,
+      601,
+      927,
+      720
+    ],
+    "sourceInkSize": [
+      158,
+      119
+    ],
+    "fittedSize": [
+      60,
+      45
+    ],
+    "threshold": 168,
+    "scale": [
+      0.379746835443038,
+      0.37815126050420167
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff",
+    "sha256": "fa547a18397da02f906e858a67b0a384fb1b007a6fc4c6bd24d267f8cd710dc3"
+  },
+  {
+    "id": "landmark-11",
+    "family": "landmark",
+    "index": 11,
+    "name": "Esperanza",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-11.png",
+    "description": "three tall wooden cloth-drying frames with hanging pale fabric panels and diagonal braces",
+    "group": "landmarks-b",
+    "slot": 4,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      253,
+      933,
+      399,
+      1046
+    ],
+    "sourceInkSize": [
+      146,
+      113
+    ],
+    "fittedSize": [
+      60,
+      46
+    ],
+    "threshold": 168,
+    "scale": [
+      0.410958904109589,
+      0.40707964601769914
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff",
+    "sha256": "91677c46bee72dcd15b6c1c3e889a6c08eb1eaa8433b7a56d22dac711462e8d0"
+  },
+  {
+    "id": "landmark-12",
+    "family": "landmark",
+    "index": 12,
+    "name": "Ember Bay",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-12.png",
+    "description": "low waterside forge building with a VERY tall narrow brick chimney and stacked timber alongside",
+    "group": "landmarks-b",
+    "slot": 5,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      780,
+      937,
+      916,
+      1058
+    ],
+    "sourceInkSize": [
+      136,
+      121
+    ],
+    "fittedSize": [
+      58,
+      52
+    ],
+    "threshold": 155,
+    "scale": [
+      0.4264705882352941,
+      0.4297520661157025
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "2feb6dcd63cd194f832ee4e5e0506e936ba693c221805b3cd9523230f4d342ff",
+    "sha256": "8089a0b7071dbf7392048cb427dc094d8eaeff0680f7ad6d233b8036121efe58"
+  },
+  {
+    "id": "landmark-13",
+    "family": "landmark",
+    "index": 13,
+    "name": "Saffron Roads",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-13.png",
+    "description": "open timber tea-loading gantry under a long gently curved roof with tea chests at the base",
+    "group": "landmarks-c",
+    "slot": 0,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      279,
+      268,
+      400,
+      365
+    ],
+    "sourceInkSize": [
+      121,
+      97
+    ],
+    "fittedSize": [
+      60,
+      48
+    ],
+    "threshold": 168,
+    "scale": [
+      0.49586776859504134,
+      0.4948453608247423
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2",
+    "sha256": "158331e3ec11490a8d319a3d6f472879cbda4692c930ffde3846376c52acae99"
+  },
+  {
+    "id": "landmark-14",
+    "family": "landmark",
+    "index": 14,
+    "name": "Zephyr Isle",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-14.png",
+    "description": "low East Asian tea pavilion with wide sweeping hipped eaves and open timber posts",
+    "group": "landmarks-c",
+    "slot": 1,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      788,
+      276,
+      919,
+      358
+    ],
+    "sourceInkSize": [
+      131,
+      82
+    ],
+    "fittedSize": [
+      60,
+      38
+    ],
+    "threshold": 168,
+    "scale": [
+      0.4580152671755725,
+      0.4634146341463415
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2",
+    "sha256": "8101cfc39d4fe820dc11fdc664c4ed5fdf4fdf66770ef690fdb5a3ebab4d3e28"
+  },
+  {
+    "id": "landmark-15",
+    "family": "landmark",
+    "index": 15,
+    "name": "Sunspire",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-15.png",
+    "description": "covered medicines store with a broad layered tile roof, pale walls and a sheltered central entrance",
+    "group": "landmarks-c",
+    "slot": 2,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      274,
+      599,
+      401,
+      684
+    ],
+    "sourceInkSize": [
+      127,
+      85
+    ],
+    "fittedSize": [
+      60,
+      40
+    ],
+    "threshold": 168,
+    "scale": [
+      0.47244094488188976,
+      0.47058823529411764
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2",
+    "sha256": "6e1b9e2d03427583a24ad38ca5a164a5dcc4a8d026369e7d4db92b64dc8ff0fa"
+  },
+  {
+    "id": "landmark-16",
+    "family": "landmark",
+    "index": 16,
+    "name": "Jadeport",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-16.png",
+    "description": "cluster of three tall bottle-shaped pottery kilns with narrow chimneys and small dark firing doors",
+    "group": "landmarks-c",
+    "slot": 3,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      801,
+      598,
+      922,
+      689
+    ],
+    "sourceInkSize": [
+      121,
+      91
+    ],
+    "fittedSize": [
+      60,
+      45
+    ],
+    "threshold": 168,
+    "scale": [
+      0.49586776859504134,
+      0.4945054945054945
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2",
+    "sha256": "cccec36cbf049ba979e348f91555e8704886cfd4b02f8c0239490e0a8e0fcbb1"
+  },
+  {
+    "id": "landmark-17",
+    "family": "landmark",
+    "index": 17,
+    "name": "Lantern Bay",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-17.png",
+    "description": "two stepped waterfront cloth sheds linked by a narrow bridge and suspended cloth banners",
+    "group": "landmarks-c",
+    "slot": 4,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      271,
+      945,
+      408,
+      1021
+    ],
+    "sourceInkSize": [
+      137,
+      76
+    ],
+    "fittedSize": [
+      60,
+      33
+    ],
+    "threshold": 168,
+    "scale": [
+      0.43795620437956206,
+      0.4342105263157895
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2",
+    "sha256": "8281913ad63fd6fd6feeeaf46b3833ed5be9ff76f45e89128319951a60262b18"
+  },
+  {
+    "id": "landmark-18",
+    "family": "landmark",
+    "index": 18,
+    "name": "Spicehaven",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-18.png",
+    "description": "low open spice courtyard with a shade awning, baskets and a compact stone platform",
+    "group": "landmarks-c",
+    "slot": 5,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      780,
+      940,
+      916,
+      1033
+    ],
+    "sourceInkSize": [
+      136,
+      93
+    ],
+    "fittedSize": [
+      60,
+      41
+    ],
+    "threshold": 168,
+    "scale": [
+      0.4411764705882353,
+      0.44086021505376344
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "c9acae0c1f8989b98af34b02f5af1650e46879c7688cac35d42ca52f72dbedb2",
+    "sha256": "ee4be080da32f899da375debf9f409647441362cb509b2aa42e7f72ee66ff490"
+  },
+  {
+    "id": "landmark-19",
+    "family": "landmark",
+    "index": 19,
+    "name": "Northstar",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-19.png",
+    "description": "very tall rectangular iron-loading timber hoist with a top crossbeam, hanging hook and stone quay base",
+    "group": "landmarks-d",
+    "slot": 0,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-d-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      282,
+      264,
+      351,
+      335
+    ],
+    "sourceInkSize": [
+      69,
+      71
+    ],
+    "fittedSize": [
+      51,
+      52
+    ],
+    "threshold": 168,
+    "scale": [
+      0.7391304347826086,
+      0.7323943661971831
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "ab909faa64424b85b6eb51edb8855a8e0de5db5f15c63db315d8e0d9bb9b5eed",
+    "sha256": "49bb118c6fe19551224790bdb39b2b879f3e1daa9372a277cc92fa4a93ba3351"
+  },
+  {
+    "id": "landmark-20",
+    "family": "landmark",
+    "index": 20,
+    "name": "Coral Reach",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-20.png",
+    "description": "small two-story dispensary on a timber jetty with pale walls, broad roof and simple side stairs",
+    "group": "landmarks-d",
+    "slot": 1,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-d-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      821,
+      269,
+      907,
+      334
+    ],
+    "sourceInkSize": [
+      86,
+      65
+    ],
+    "fittedSize": [
+      60,
+      45
+    ],
+    "threshold": 168,
+    "scale": [
+      0.6976744186046512,
+      0.6923076923076923
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "ab909faa64424b85b6eb51edb8855a8e0de5db5f15c63db315d8e0d9bb9b5eed",
+    "sha256": "d3418d7f1cd3d80b83fcca35e8de0a0c60b3b256482f437ae7fae24244683168"
+  },
+  {
+    "id": "landmark-21",
+    "family": "landmark",
+    "index": 21,
+    "name": "Westwind",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-21.png",
+    "description": "long low floating log boom filled with parallel timber logs, surrounded by a low timber rail",
+    "group": "landmarks-d",
+    "slot": 2,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-d-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      274,
+      610,
+      355,
+      659
+    ],
+    "sourceInkSize": [
+      81,
+      49
+    ],
+    "fittedSize": [
+      60,
+      36
+    ],
+    "threshold": 168,
+    "scale": [
+      0.7407407407407407,
+      0.7346938775510204
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "ab909faa64424b85b6eb51edb8855a8e0de5db5f15c63db315d8e0d9bb9b5eed",
+    "sha256": "816e87529ff6651c7f18b70aa62ea0b96f9b5c05d9d2f30048e5a5529acec1d8"
+  },
+  {
+    "id": "landmark-22",
+    "family": "landmark",
+    "index": 22,
+    "name": "Valparra",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-22.png",
+    "description": "two dockside crane booms leaning at different angles with hanging hooks on a low quay",
+    "group": "landmarks-d",
+    "slot": 3,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-d-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      824,
+      600,
+      899,
+      671
+    ],
+    "sourceInkSize": [
+      75,
+      71
+    ],
+    "fittedSize": [
+      55,
+      52
+    ],
+    "threshold": 168,
+    "scale": [
+      0.7333333333333333,
+      0.7323943661971831
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "ab909faa64424b85b6eb51edb8855a8e0de5db5f15c63db315d8e0d9bb9b5eed",
+    "sha256": "67e579f5527e4c233eb69d47f665e3947d3badd3a0b7d741081442258a9de2c8"
+  },
+  {
+    "id": "landmark-23",
+    "family": "landmark",
+    "index": 23,
+    "name": "Far Horizon",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-23.png",
+    "description": "small tall open timber signal/lookout tower with roofed upper platform, ladder and one small pennant",
+    "group": "landmarks-d",
+    "slot": 4,
+    "source": "assets/source/x4/full-illustrations-v8/landmarks-d-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      291,
+      914,
+      336,
+      989
+    ],
+    "sourceInkSize": [
+      45,
+      75
+    ],
+    "fittedSize": [
+      31,
+      52
+    ],
+    "threshold": 168,
+    "scale": [
+      0.6888888888888889,
+      0.6933333333333334
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "sourceSha256": "ab909faa64424b85b6eb51edb8855a8e0de5db5f15c63db315d8e0d9bb9b5eed",
+    "sha256": "a0c7504a5916e6938e25f9368b9aa789bb657bc52af0b544b09f40dbefb27d0c"
+  },
+  {
+    "id": "facility-0",
+    "family": "facility",
+    "index": 0,
+    "name": "Merchant office",
+    "sheet": "facilities-v2.png",
+    "columns": 3,
+    "rows": 1,
+    "target": [
+      48,
+      32
+    ],
+    "preview": "facility-0-0.png",
+    "description": "",
+    "inherited": "office",
+    "source": "assets/source/x4/small-illustrations-v7/office.png",
+    "operations": [
+      "copy approved native pixels"
+    ],
+    "sourceInkSize": [
+      48,
+      32
+    ],
+    "fittedSize": [
+      48,
+      32
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "runtimeSize": [
+      48,
+      32
+    ],
+    "sourceSha256": "0629f9913301ab756d0c910a86e8bb35eaf83cb75c6ec93b7f8a5f5e86953337",
+    "sha256": "6920dffb509aca388eda6396d8c3ddd8a0830cf10d90994e7e2a721abf2d2b50"
+  },
+  {
+    "id": "facility-1",
+    "family": "facility",
+    "index": 1,
+    "name": "Warehouse",
+    "sheet": "facilities-v2.png",
+    "columns": 3,
+    "rows": 1,
+    "target": [
+      48,
+      32
+    ],
+    "preview": "facility-1-0.png",
+    "description": "",
+    "inherited": "warehouse",
+    "source": "assets/source/x4/small-illustrations-v7/warehouse.png",
+    "operations": [
+      "copy approved native pixels"
+    ],
+    "sourceInkSize": [
+      48,
+      32
+    ],
+    "fittedSize": [
+      48,
+      32
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "runtimeSize": [
+      48,
+      32
+    ],
+    "sourceSha256": "bd838c3170836448390b72bb9a7de1fa30d2f3e0fb55ee7ff777430df319975b",
+    "sha256": "027dccb50e5b12707a52005a76479f6156443d3b3f413a19d04346352d7734d8"
+  },
+  {
+    "id": "facility-2",
+    "family": "facility",
+    "index": 2,
+    "name": "Shipyard",
+    "sheet": "facilities-v2.png",
+    "columns": 3,
+    "rows": 1,
+    "target": [
+      48,
+      32
+    ],
+    "preview": "facility-2-0.png",
+    "description": "open timber shipbuilding shed with a high gabled roof, gantry braces and the visible bow of a half-built wooden hull on a slipway",
+    "group": "seals-shipyard",
+    "slot": 5,
+    "source": "assets/source/x4/full-illustrations-v8/seals-shipyard-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      810,
+      943,
+      906,
+      1018
+    ],
+    "sourceInkSize": [
+      96,
+      75
+    ],
+    "fittedSize": [
+      38,
+      30
+    ],
+    "threshold": 168,
+    "scale": [
+      0.3958333333333333,
+      0.4
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      48,
+      32
+    ],
+    "sourceSha256": "aaf43fade144b52cd3ebad68e2437950ccfce1bb3f026595b0063564e9f3596b",
+    "sha256": "76a967fc0f2435d6a4d2878f1e25141c74e761dacac61a7c0552b77a4bb8ff0c"
+  },
+  {
+    "id": "region-stamp-0",
+    "family": "region-stamp",
+    "index": 0,
+    "name": "Crown Sea",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-0.png",
+    "description": "thin round maritime seal containing a coastal clocktower and small waterfront roofs above two waves",
+    "group": "seals-shipyard",
+    "slot": 0,
+    "source": "assets/source/x4/full-illustrations-v8/seals-shipyard-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      275,
+      258,
+      346,
+      329
+    ],
+    "sourceInkSize": [
+      71,
+      71
+    ],
+    "fittedSize": [
+      38,
+      38
+    ],
+    "threshold": 168,
+    "scale": [
+      0.5352112676056338,
+      0.5352112676056338
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      40,
+      40
+    ],
+    "sourceSha256": "aaf43fade144b52cd3ebad68e2437950ccfce1bb3f026595b0063564e9f3596b",
+    "sha256": "9c92f9ef056ee067e0bdc58e05dc2e1247478c3ea51be13efc7c9d7572cff44a"
+  },
+  {
+    "id": "region-stamp-1",
+    "family": "region-stamp",
+    "index": 1,
+    "name": "Sunward Isles",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-1.png",
+    "description": "thin round maritime seal containing a palm tree on a low island above two waves",
+    "group": "seals-shipyard",
+    "slot": 1,
+    "source": "assets/source/x4/full-illustrations-v8/seals-shipyard-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      818,
+      259,
+      889,
+      332
+    ],
+    "sourceInkSize": [
+      71,
+      73
+    ],
+    "fittedSize": [
+      37,
+      38
+    ],
+    "threshold": 168,
+    "scale": [
+      0.5211267605633803,
+      0.5205479452054794
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      40,
+      40
+    ],
+    "sourceSha256": "aaf43fade144b52cd3ebad68e2437950ccfce1bb3f026595b0063564e9f3596b",
+    "sha256": "f0dfd9abb4db5346ec0148f6600005ab51ae23d4f2fcc5ce0121fb3e1c3c353a"
+  },
+  {
+    "id": "region-stamp-2",
+    "family": "region-stamp",
+    "index": 2,
+    "name": "Meridian",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-2.png",
+    "description": "",
+    "inherited": "meridian",
+    "source": "assets/source/x4/small-illustrations-v7/meridian.png",
+    "operations": [
+      "copy approved native pixels"
+    ],
+    "sourceInkSize": [
+      40,
+      40
+    ],
+    "fittedSize": [
+      40,
+      40
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "runtimeSize": [
+      40,
+      40
+    ],
+    "sourceSha256": "7a5a33ebba8a4e92ac27e9a06ed5d4daec22f269dbcc31d219aa96b1de1451ce",
+    "sha256": "f2b8f9180b541f61b754db4f0da289d97b0b2b5fb9165ff25f6ecb923e2eff9b"
+  },
+  {
+    "id": "region-stamp-3",
+    "family": "region-stamp",
+    "index": 3,
+    "name": "Monsoon Sea",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-3.png",
+    "description": "thin round maritime seal containing an open East Asian pavilion with curved roof above two waves",
+    "group": "seals-shipyard",
+    "slot": 2,
+    "source": "assets/source/x4/full-illustrations-v8/seals-shipyard-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      276,
+      602,
+      348,
+      674
+    ],
+    "sourceInkSize": [
+      72,
+      72
+    ],
+    "fittedSize": [
+      38,
+      38
+    ],
+    "threshold": 168,
+    "scale": [
+      0.5277777777777778,
+      0.5277777777777778
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      40,
+      40
+    ],
+    "sourceSha256": "aaf43fade144b52cd3ebad68e2437950ccfce1bb3f026595b0063564e9f3596b",
+    "sha256": "4b66274d484608562e848241195a17da88c3d45b82288750b8a341d9bc4fcc74"
+  },
+  {
+    "id": "region-stamp-4",
+    "family": "region-stamp",
+    "index": 4,
+    "name": "Lantern Reach",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-4.png",
+    "description": "thin round maritime seal containing a traditional rounded hanging lantern with a short tassel above two waves",
+    "group": "seals-shipyard",
+    "slot": 3,
+    "source": "assets/source/x4/full-illustrations-v8/seals-shipyard-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      818,
+      599,
+      892,
+      674
+    ],
+    "sourceInkSize": [
+      74,
+      75
+    ],
+    "fittedSize": [
+      37,
+      38
+    ],
+    "threshold": 168,
+    "scale": [
+      0.5,
+      0.5066666666666667
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      40,
+      40
+    ],
+    "sourceSha256": "aaf43fade144b52cd3ebad68e2437950ccfce1bb3f026595b0063564e9f3596b",
+    "sha256": "bf78aa7c65ff28022c3834107987203863fdfbca74779f2c87366535e419eac0"
+  },
+  {
+    "id": "region-stamp-5",
+    "family": "region-stamp",
+    "index": 5,
+    "name": "Great West",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-5.png",
+    "description": "thin round maritime seal containing a wooden coastal signal tower above two waves",
+    "group": "seals-shipyard",
+    "slot": 4,
+    "source": "assets/source/x4/full-illustrations-v8/seals-shipyard-generated.png",
+    "sourceCanvas": [
+      1254,
+      1254
+    ],
+    "crop": [
+      272,
+      942,
+      346,
+      1016
+    ],
+    "sourceInkSize": [
+      74,
+      74
+    ],
+    "fittedSize": [
+      38,
+      38
+    ],
+    "threshold": 168,
+    "scale": [
+      0.5135135135135135,
+      0.5135135135135135
+    ],
+    "operations": [
+      "crop",
+      "BOX resize once before threshold",
+      "monochrome threshold",
+      "pad"
+    ],
+    "runtimeSize": [
+      40,
+      40
+    ],
+    "sourceSha256": "aaf43fade144b52cd3ebad68e2437950ccfce1bb3f026595b0063564e9f3596b",
+    "sha256": "771cc4931cd4684a976423fee3e553f4673f4da20ecd0dc88aaeaa3ce6363064"
+  }
+]

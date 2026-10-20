@@ -1,0 +1,50 @@
+[
+  {
+    "id": "parcel",
+    "size": 24,
+    "description": "a folded paper parcel tied with coarse crossed twine and a round dark wax seal; three-quarter view; clearly a postal package, not a wooden trade chest",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-7fa71645-8a29-4352-83e5-ec3f2ee927bf.png"
+  },
+  {
+    "id": "fitting-0",
+    "size": 32,
+    "description": "two long wooden water casks lashed together, visible curved staves and dark iron hoops",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-66c3ae22-23d2-4041-aba8-0d53ea9b0a25.png"
+  },
+  {
+    "id": "fitting-1",
+    "size": 32,
+    "description": "a cutaway timber ship bulkhead: thick vertical planks with a stout curved rib and cross-brace, freestanding section",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-1ae5dd01-51c2-475a-ab01-2fc58cd728d3.png"
+  },
+  {
+    "id": "fitting-2",
+    "size": 32,
+    "description": "a compact wooden shipboard bunk with a rolled blanket and pillow, clearly a sleeping berth",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-49c2bc3f-397b-47e5-9547-379679858e90.png"
+  },
+  {
+    "id": "fitting-3",
+    "size": 32,
+    "description": "a short historical bronze swivel gun barrel with flared muzzle on its forked pivot and wooden rail mount",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-e9f6a0f5-eae8-43ca-9431-75f3be1bdabc.png"
+  },
+  {
+    "id": "fitting-4",
+    "size": 32,
+    "description": "a curved cutaway ship hull section clad in three overlapping rows of copper sheathing plates with a few visible nail heads",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-5cf2e40d-cded-4955-88e0-9dabc552165f.png"
+  },
+  {
+    "id": "fitting-5",
+    "size": 32,
+    "description": "a short mast and yard with a tightly reefed sail tied in three bands, two bold supporting ropes; storm-ready rigging",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-163ee90f-d6ba-475b-af43-10dfa7a5854e.png"
+  },
+  {
+    "id": "fitting-6",
+    "size": 32,
+    "description": "a fork-tailed merchant charter pennant flying from a short angled staff, with a tiny compass-star emblem; confident cloth folds",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-2669d79d-381d-4ae4-a071-7ffc3349f91c.png"
+  }
+]

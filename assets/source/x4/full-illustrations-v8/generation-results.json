@@ -1,0 +1,38 @@
+[
+  {
+    "group": "goods",
+    "source": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-e990afeb-5b9e-4327-bfed-98ff030583fe.png",
+    "project": "assets/source/x4/full-illustrations-v8/goods-generated.png",
+    "mode": "built-in image_gen"
+  },
+  {
+    "group": "landmarks-a",
+    "source": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-b7b1129d-598c-434a-bb76-ff2901527894.png",
+    "project": "assets/source/x4/full-illustrations-v8/landmarks-a-generated.png",
+    "mode": "built-in image_gen"
+  },
+  {
+    "group": "landmarks-b",
+    "source": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-47ed815b-7b9d-4f6d-8f10-46902f7e93d4.png",
+    "project": "assets/source/x4/full-illustrations-v8/landmarks-b-generated.png",
+    "mode": "built-in image_gen"
+  },
+  {
+    "group": "landmarks-c",
+    "source": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-39bb1c9f-afc2-41b5-8ec1-e34e715b43f8.png",
+    "project": "assets/source/x4/full-illustrations-v8/landmarks-c-generated.png",
+    "mode": "built-in image_gen"
+  },
+  {
+    "group": "landmarks-d",
+    "source": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-5217c29a-496e-4656-aab1-7d6ac66aefa8.png",
+    "project": "assets/source/x4/full-illustrations-v8/landmarks-d-generated.png",
+    "mode": "built-in image_gen"
+  },
+  {
+    "group": "seals-shipyard",
+    "source": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-3c72db04-e138-423d-8170-c535d6dbb220.png",
+    "project": "assets/source/x4/full-illustrations-v8/seals-shipyard-generated.png",
+    "mode": "built-in image_gen"
+  }
+]

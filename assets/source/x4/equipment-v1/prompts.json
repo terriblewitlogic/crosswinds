@@ -1,0 +1,45 @@
+{
+  "mode": "built-in",
+  "prompts": [
+    {
+      "id": "parcel",
+      "size": 24,
+      "prompt": "Generate one tiny maritime inventory illustration: a folded paper parcel tied with coarse crossed twine and a round dark wax seal; three-quarter view; clearly a postal package, not a wooden trade chest. Black ink and white paper only. Established mature 1800s merchant-game illustration style: hand-inked contour, restrained engraving, slightly irregular material details, strong silhouette, generous open white faces, not cartoon, not flat vector, not pixel art. Match the reference sheet's illustrated style only; DO NOT reproduce its other objects or labels. Critical composition: single drawing ONLY, centered on a plain white 1024x1024 canvas, drawing occupying ONLY about 32 by 32 actual pixels near the exact center. Most of canvas must be empty white. Design specifically to read at 24x24 pixels. Few strong identifying details, no fine hatching or grey shadow. No text, labels, borders, surrounding scene, pedestal, badge circle, watermark, or extra objects. The subject should look authored as a tiny illustration rather than an intricate large drawing."
+    },
+    {
+      "id": "fitting-0",
+      "size": 32,
+      "prompt": "Generate one tiny maritime inventory illustration: two long wooden water casks lashed together, visible curved staves and dark iron hoops. Black ink and white paper only. Established mature 1800s merchant-game illustration style: hand-inked contour, restrained engraving, slightly irregular material details, strong silhouette, generous open white faces, not cartoon, not flat vector, not pixel art. Match the reference sheet's illustrated style only; DO NOT reproduce its other objects or labels. Critical composition: single drawing ONLY, centered on a plain white 1024x1024 canvas, drawing occupying ONLY about 40 by 40 actual pixels near the exact center. Most of canvas must be empty white. Design specifically to read at 32x32 pixels. Few strong identifying details, no fine hatching or grey shadow. No text, labels, borders, surrounding scene, pedestal, badge circle, watermark, or extra objects. The subject should look authored as a tiny illustration rather than an intricate large drawing."
+    },
+    {
+      "id": "fitting-1",
+      "size": 32,
+      "prompt": "Generate one tiny maritime inventory illustration: a cutaway timber ship bulkhead: thick vertical planks with a stout curved rib and cross-brace, freestanding section. Black ink and white paper only. Established mature 1800s merchant-game illustration style: hand-inked contour, restrained engraving, slightly irregular material details, strong silhouette, generous open white faces, not cartoon, not flat vector, not pixel art. Match the reference sheet's illustrated style only; DO NOT reproduce its other objects or labels. Critical composition: single drawing ONLY, centered on a plain white 1024x1024 canvas, drawing occupying ONLY about 40 by 40 actual pixels near the exact center. Most of canvas must be empty white. Design specifically to read at 32x32 pixels. Few strong identifying details, no fine hatching or grey shadow. No text, labels, borders, surrounding scene, pedestal, badge circle, watermark, or extra objects. The subject should look authored as a tiny illustration rather than an intricate large drawing."
+    },
+    {
+      "id": "fitting-2",
+      "size": 32,
+      "prompt": "Generate one tiny maritime inventory illustration: a compact wooden shipboard bunk with a rolled blanket and pillow, clearly a sleeping berth. Black ink and white paper only. Established mature 1800s merchant-game illustration style: hand-inked contour, restrained engraving, slightly irregular material details, strong silhouette, generous open white faces, not cartoon, not flat vector, not pixel art. Match the reference sheet's illustrated style only; DO NOT reproduce its other objects or labels. Critical composition: single drawing ONLY, centered on a plain white 1024x1024 canvas, drawing occupying ONLY about 40 by 40 actual pixels near the exact center. Most of canvas must be empty white. Design specifically to read at 32x32 pixels. Few strong identifying details, no fine hatching or grey shadow. No text, labels, borders, surrounding scene, pedestal, badge circle, watermark, or extra objects. The subject should look authored as a tiny illustration rather than an intricate large drawing."
+    },
+    {
+      "id": "fitting-3",
+      "size": 32,
+      "prompt": "Generate one tiny maritime inventory illustration: a short historical bronze swivel gun barrel with flared muzzle on its forked pivot and wooden rail mount. Black ink and white paper only. Established mature 1800s merchant-game illustration style: hand-inked contour, restrained engraving, slightly irregular material details, strong silhouette, generous open white faces, not cartoon, not flat vector, not pixel art. Match the reference sheet's illustrated style only; DO NOT reproduce its other objects or labels. Critical composition: single drawing ONLY, centered on a plain white 1024x1024 canvas, drawing occupying ONLY about 40 by 40 actual pixels near the exact center. Most of canvas must be empty white. Design specifically to read at 32x32 pixels. Few strong identifying details, no fine hatching or grey shadow. No text, labels, borders, surrounding scene, pedestal, badge circle, watermark, or extra objects. The subject should look authored as a tiny illustration rather than an intricate large drawing."
+    },
+    {
+      "id": "fitting-4",
+      "size": 32,
+      "prompt": "Generate one tiny maritime inventory illustration: a curved cutaway ship hull section clad in three overlapping rows of copper sheathing plates with a few visible nail heads. Black ink and white paper only. Established mature 1800s merchant-game illustration style: hand-inked contour, restrained engraving, slightly irregular material details, strong silhouette, generous open white faces, not cartoon, not flat vector, not pixel art. Match the reference sheet's illustrated style only; DO NOT reproduce its other objects or labels. Critical composition: single drawing ONLY, centered on a plain white 1024x1024 canvas, drawing occupying ONLY about 40 by 40 actual pixels near the exact center. Most of canvas must be empty white. Design specifically to read at 32x32 pixels. Few strong identifying details, no fine hatching or grey shadow. No text, labels, borders, surrounding scene, pedestal, badge circle, watermark, or extra objects. The subject should look authored as a tiny illustration rather than an intricate large drawing."
+    },
+    {
+      "id": "fitting-5",
+      "size": 32,
+      "prompt": "Generate one tiny maritime inventory illustration: a short mast and yard with a tightly reefed sail tied in three bands, two bold supporting ropes; storm-ready rigging. Black ink and white paper only. Established mature 1800s merchant-game illustration style: hand-inked contour, restrained engraving, slightly irregular material details, strong silhouette, generous open white faces, not cartoon, not flat vector, not pixel art. Match the reference sheet's illustrated style only; DO NOT reproduce its other objects or labels. Critical composition: single drawing ONLY, centered on a plain white 1024x1024 canvas, drawing occupying ONLY about 40 by 40 actual pixels near the exact center. Most of canvas must be empty white. Design specifically to read at 32x32 pixels. Few strong identifying details, no fine hatching or grey shadow. No text, labels, borders, surrounding scene, pedestal, badge circle, watermark, or extra objects. The subject should look authored as a tiny illustration rather than an intricate large drawing."
+    },
+    {
+      "id": "fitting-6",
+      "size": 32,
+      "prompt": "Generate one tiny maritime inventory illustration: a fork-tailed merchant charter pennant flying from a short angled staff, with a tiny compass-star emblem; confident cloth folds. Black ink and white paper only. Established mature 1800s merchant-game illustration style: hand-inked contour, restrained engraving, slightly irregular material details, strong silhouette, generous open white faces, not cartoon, not flat vector, not pixel art. Match the reference sheet's illustrated style only; DO NOT reproduce its other objects or labels. Critical composition: single drawing ONLY, centered on a plain white 1024x1024 canvas, drawing occupying ONLY about 40 by 40 actual pixels near the exact center. Most of canvas must be empty white. Design specifically to read at 32x32 pixels. Few strong identifying details, no fine hatching or grey shadow. No text, labels, borders, surrounding scene, pedestal, badge circle, watermark, or extra objects. The subject should look authored as a tiny illustration rather than an intricate large drawing."
+    }
+  ]
+}

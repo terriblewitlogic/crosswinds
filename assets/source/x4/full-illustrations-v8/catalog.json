@@ -1,0 +1,693 @@
+[
+  {
+    "id": "good-0",
+    "family": "good",
+    "index": 0,
+    "name": "Grain",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-0.png",
+    "description": "",
+    "inherited": "grain"
+  },
+  {
+    "id": "good-1",
+    "family": "good",
+    "index": 1,
+    "name": "Timber",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-1.png",
+    "description": "three round-ended cut timber logs tied into a small bundle, with visible end grain",
+    "group": "goods",
+    "slot": 0
+  },
+  {
+    "id": "good-2",
+    "family": "good",
+    "index": 2,
+    "name": "Textiles",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-2.png",
+    "description": "rolled bolt of cloth with an unfurling folded end, seen in three-quarter perspective",
+    "group": "goods",
+    "slot": 1
+  },
+  {
+    "id": "good-3",
+    "family": "good",
+    "index": 3,
+    "name": "Ironware",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-3.png",
+    "description": "a crossed blacksmith hammer and pair of tongs, distinct angled handles",
+    "group": "goods",
+    "slot": 2
+  },
+  {
+    "id": "good-4",
+    "family": "good",
+    "index": 4,
+    "name": "Tea",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-4.png",
+    "description": "a small wooden tea chest with lid, corner straps and a single leaf emblem",
+    "group": "goods",
+    "slot": 3
+  },
+  {
+    "id": "good-5",
+    "family": "good",
+    "index": 5,
+    "name": "Spices",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-5.png",
+    "description": "an apothecary mortar and angled pestle holding spices, curved stone bowl",
+    "group": "goods",
+    "slot": 4
+  },
+  {
+    "id": "good-6",
+    "family": "good",
+    "index": 6,
+    "name": "Medicines",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-6.png",
+    "description": "a slim pale glass medicine bottle with cork and small paper label",
+    "group": "goods",
+    "slot": 5
+  },
+  {
+    "id": "good-7",
+    "family": "good",
+    "index": 7,
+    "name": "Porcelain",
+    "sheet": "goods-v2.png",
+    "columns": 4,
+    "rows": 2,
+    "target": [
+      24,
+      24
+    ],
+    "preview": "good-7.png",
+    "description": "",
+    "inherited": "porcelain"
+  },
+  {
+    "id": "landmark-0",
+    "family": "landmark",
+    "index": 0,
+    "name": "Kingsfall",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-0.png",
+    "description": "squat stone clocktower with two visible clock faces and swept pyramidal roof",
+    "inherited": "clocktower"
+  },
+  {
+    "id": "landmark-1",
+    "family": "landmark",
+    "index": 1,
+    "name": "Belmar",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-1.png",
+    "description": "two-story waterside mill with a large waterwheel, tiled roof and pale plaster upper walls",
+    "group": "landmarks-a",
+    "slot": 0
+  },
+  {
+    "id": "landmark-2",
+    "family": "landmark",
+    "index": 2,
+    "name": "Northwatch",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-2.png",
+    "description": "tall timber storehouse/watchtower with a pyramidal roof, open lower posts and stacked logs at its foot",
+    "group": "landmarks-a",
+    "slot": 1
+  },
+  {
+    "id": "landmark-3",
+    "family": "landmark",
+    "index": 3,
+    "name": "New Albion",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-3.png",
+    "description": "two tall timber dockside gantry cranes with diagonal braces, hanging hooks and clear white spaces between beams",
+    "group": "landmarks-a",
+    "slot": 2
+  },
+  {
+    "id": "landmark-4",
+    "family": "landmark",
+    "index": 4,
+    "name": "Port Aurelia",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-4.png",
+    "description": "wide arcaded stone spice-market canopy with a broad hipped roof and multiple open arches",
+    "group": "landmarks-a",
+    "slot": 3
+  },
+  {
+    "id": "landmark-5",
+    "family": "landmark",
+    "index": 5,
+    "name": "Verde Cay",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-5.png",
+    "description": "narrow timber landing jetty extending diagonally toward a small roofed shelter at its far end",
+    "group": "landmarks-a",
+    "slot": 4
+  },
+  {
+    "id": "landmark-6",
+    "family": "landmark",
+    "index": 6,
+    "name": "San Cordel",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-6.png",
+    "description": "two-story apothecary with shaded wraparound balcony, timber posts and side stairs",
+    "group": "landmarks-a",
+    "slot": 5
+  },
+  {
+    "id": "landmark-7",
+    "family": "landmark",
+    "index": 7,
+    "name": "Marrow Key",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-7.png",
+    "description": "open-sided low timber rack shed with a broad roof and visible horizontal stacks of cut logs",
+    "group": "landmarks-b",
+    "slot": 0
+  },
+  {
+    "id": "landmark-8",
+    "family": "landmark",
+    "index": 8,
+    "name": "Solhaven",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-8.png",
+    "description": "tall narrow grain-storage tower with sloped roof, upper grain opening and arched base door",
+    "group": "landmarks-b",
+    "slot": 1
+  },
+  {
+    "id": "landmark-9",
+    "family": "landmark",
+    "index": 9,
+    "name": "Meridian Cape",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-9.png",
+    "description": "stout stone lighthouse with lantern balcony and a stepped stone footing",
+    "group": "landmarks-b",
+    "slot": 2
+  },
+  {
+    "id": "landmark-10",
+    "family": "landmark",
+    "index": 10,
+    "name": "Saint Orin",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-10.png",
+    "description": "three ascending stone herb terraces with a small shelter at the top and small drying bundles",
+    "group": "landmarks-b",
+    "slot": 3
+  },
+  {
+    "id": "landmark-11",
+    "family": "landmark",
+    "index": 11,
+    "name": "Esperanza",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-11.png",
+    "description": "three tall wooden cloth-drying frames with hanging pale fabric panels and diagonal braces",
+    "group": "landmarks-b",
+    "slot": 4
+  },
+  {
+    "id": "landmark-12",
+    "family": "landmark",
+    "index": 12,
+    "name": "Ember Bay",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-12.png",
+    "description": "low waterside forge building with a VERY tall narrow brick chimney and stacked timber alongside",
+    "group": "landmarks-b",
+    "slot": 5
+  },
+  {
+    "id": "landmark-13",
+    "family": "landmark",
+    "index": 13,
+    "name": "Saffron Roads",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-13.png",
+    "description": "open timber tea-loading gantry under a long gently curved roof with tea chests at the base",
+    "group": "landmarks-c",
+    "slot": 0
+  },
+  {
+    "id": "landmark-14",
+    "family": "landmark",
+    "index": 14,
+    "name": "Zephyr Isle",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-14.png",
+    "description": "low East Asian tea pavilion with wide sweeping hipped eaves and open timber posts",
+    "group": "landmarks-c",
+    "slot": 1
+  },
+  {
+    "id": "landmark-15",
+    "family": "landmark",
+    "index": 15,
+    "name": "Sunspire",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-15.png",
+    "description": "covered medicines store with a broad layered tile roof, pale walls and a sheltered central entrance",
+    "group": "landmarks-c",
+    "slot": 2
+  },
+  {
+    "id": "landmark-16",
+    "family": "landmark",
+    "index": 16,
+    "name": "Jadeport",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-16.png",
+    "description": "cluster of three tall bottle-shaped pottery kilns with narrow chimneys and small dark firing doors",
+    "group": "landmarks-c",
+    "slot": 3
+  },
+  {
+    "id": "landmark-17",
+    "family": "landmark",
+    "index": 17,
+    "name": "Lantern Bay",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-17.png",
+    "description": "two stepped waterfront cloth sheds linked by a narrow bridge and suspended cloth banners",
+    "group": "landmarks-c",
+    "slot": 4
+  },
+  {
+    "id": "landmark-18",
+    "family": "landmark",
+    "index": 18,
+    "name": "Spicehaven",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-18.png",
+    "description": "low open spice courtyard with a shade awning, baskets and a compact stone platform",
+    "group": "landmarks-c",
+    "slot": 5
+  },
+  {
+    "id": "landmark-19",
+    "family": "landmark",
+    "index": 19,
+    "name": "Northstar",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-19.png",
+    "description": "very tall rectangular iron-loading timber hoist with a top crossbeam, hanging hook and stone quay base",
+    "group": "landmarks-d",
+    "slot": 0
+  },
+  {
+    "id": "landmark-20",
+    "family": "landmark",
+    "index": 20,
+    "name": "Coral Reach",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-20.png",
+    "description": "small two-story dispensary on a timber jetty with pale walls, broad roof and simple side stairs",
+    "group": "landmarks-d",
+    "slot": 1
+  },
+  {
+    "id": "landmark-21",
+    "family": "landmark",
+    "index": 21,
+    "name": "Westwind",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-21.png",
+    "description": "long low floating log boom filled with parallel timber logs, surrounded by a low timber rail",
+    "group": "landmarks-d",
+    "slot": 2
+  },
+  {
+    "id": "landmark-22",
+    "family": "landmark",
+    "index": 22,
+    "name": "Valparra",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-22.png",
+    "description": "two dockside crane booms leaning at different angles with hanging hooks on a low quay",
+    "group": "landmarks-d",
+    "slot": 3
+  },
+  {
+    "id": "landmark-23",
+    "family": "landmark",
+    "index": 23,
+    "name": "Far Horizon",
+    "sheet": "landmarks-v2.png",
+    "columns": 6,
+    "rows": 4,
+    "target": [
+      64,
+      56
+    ],
+    "preview": "landmark-23.png",
+    "description": "small tall open timber signal/lookout tower with roofed upper platform, ladder and one small pennant",
+    "group": "landmarks-d",
+    "slot": 4
+  },
+  {
+    "id": "facility-0",
+    "family": "facility",
+    "index": 0,
+    "name": "Merchant office",
+    "sheet": "facilities-v2.png",
+    "columns": 3,
+    "rows": 1,
+    "target": [
+      48,
+      32
+    ],
+    "preview": "facility-0-0.png",
+    "description": "",
+    "inherited": "office"
+  },
+  {
+    "id": "facility-1",
+    "family": "facility",
+    "index": 1,
+    "name": "Warehouse",
+    "sheet": "facilities-v2.png",
+    "columns": 3,
+    "rows": 1,
+    "target": [
+      48,
+      32
+    ],
+    "preview": "facility-1-0.png",
+    "description": "",
+    "inherited": "warehouse"
+  },
+  {
+    "id": "facility-2",
+    "family": "facility",
+    "index": 2,
+    "name": "Shipyard",
+    "sheet": "facilities-v2.png",
+    "columns": 3,
+    "rows": 1,
+    "target": [
+      48,
+      32
+    ],
+    "preview": "facility-2-0.png",
+    "description": "open timber shipbuilding shed with a high gabled roof, gantry braces and the visible bow of a half-built wooden hull on a slipway",
+    "group": "seals-shipyard",
+    "slot": 5
+  },
+  {
+    "id": "region-stamp-0",
+    "family": "region-stamp",
+    "index": 0,
+    "name": "Crown Sea",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-0.png",
+    "description": "thin round maritime seal containing a coastal clocktower and small waterfront roofs above two waves",
+    "group": "seals-shipyard",
+    "slot": 0
+  },
+  {
+    "id": "region-stamp-1",
+    "family": "region-stamp",
+    "index": 1,
+    "name": "Sunward Isles",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-1.png",
+    "description": "thin round maritime seal containing a palm tree on a low island above two waves",
+    "group": "seals-shipyard",
+    "slot": 1
+  },
+  {
+    "id": "region-stamp-2",
+    "family": "region-stamp",
+    "index": 2,
+    "name": "Meridian",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-2.png",
+    "description": "",
+    "inherited": "meridian"
+  },
+  {
+    "id": "region-stamp-3",
+    "family": "region-stamp",
+    "index": 3,
+    "name": "Monsoon Sea",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-3.png",
+    "description": "thin round maritime seal containing an open East Asian pavilion with curved roof above two waves",
+    "group": "seals-shipyard",
+    "slot": 2
+  },
+  {
+    "id": "region-stamp-4",
+    "family": "region-stamp",
+    "index": 4,
+    "name": "Lantern Reach",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-4.png",
+    "description": "thin round maritime seal containing a traditional rounded hanging lantern with a short tassel above two waves",
+    "group": "seals-shipyard",
+    "slot": 3
+  },
+  {
+    "id": "region-stamp-5",
+    "family": "region-stamp",
+    "index": 5,
+    "name": "Great West",
+    "sheet": "region-stamps-v2.png",
+    "columns": 3,
+    "rows": 2,
+    "target": [
+      40,
+      40
+    ],
+    "preview": "region-stamp-5.png",
+    "description": "thin round maritime seal containing a wooden coastal signal tower above two waves",
+    "group": "seals-shipyard",
+    "slot": 4
+  }
+]

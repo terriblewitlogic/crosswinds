@@ -1,0 +1,40 @@
+{
+  "mode": "image_gen",
+  "subjects": [
+    "an older weathered merchant captain with a short grey beard, tricorn hat and plain brass-button sea coat",
+    "a stern middle-aged woman shipmaster with swept-back dark hair, small bicorn hat and high collar",
+    "a middle-aged South Asian navigator with a neat moustache, wrapped headcloth and wool sea coat",
+    "an older East Asian sea captain with a sparse grey beard, cloth cap and heavy practical jacket",
+    "a Black woman captain in her fifties, braided hair beneath a modest tricorn, practical officer coat",
+    "a burly older sailor with a full beard, watch cap and thick wool collar",
+    "a clean-shaven grey-haired commodore in a bicorn and plain formal naval coat",
+    "a weathered woman navigator with a headscarf and simple sea coat",
+    "a Black male shipmaster with a neatly trimmed beard, tricorn and weathered coat",
+    "a Mediterranean captain with curled moustache, broad hat and open-neck sailor shirt",
+    "an older South Asian woman merchant captain with a plain head wrap and tailored naval jacket",
+    "an East Asian woman captain with hair in a bun, simple cap and high-collared sea coat",
+    "a red-bearded northern captain with swept moustache, oilskin hat and wool coat",
+    "a lean older deck officer with a long narrow face, sideburns and bicorn",
+    "a silver-haired woman commodore with a resolute expression and restrained naval uniform",
+    "a broad-faced Polynesian navigator with tied-back hair, short beard and practical merchant sea coat"
+  ],
+  "paths": [
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-e40ed47d-f7d2-4777-bf84-91dd729d6741.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-e429b149-dc46-4265-ac61-639d9f29ac8f.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-42cd365e-0ba3-4953-8b0c-0bf5d809d605.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-8491dc0d-bc28-4ead-ac8e-85924361d9ae.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-b1645277-2bd9-44e4-988b-cf94952ac16e.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-e962b40d-de56-4241-bea2-fe77ef666f65.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-c765ff19-e4b6-45d4-8a3d-bc9b94710029.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-44352f07-f580-4190-91b6-17d6d2ccb22c.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-3c3fd250-ced4-477e-978f-b23fdd51447c.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-f0b64061-227e-4924-88cd-0edb244aee82.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-567ca496-05da-4e4b-a51f-df423a7d007b.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-d145e1f5-6f90-4a45-950a-41be8b7b5afc.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-fc48a084-a889-4384-8905-02b717236d19.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-30c45e9a-535c-4334-8df4-2f0a0566b278.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-fcdeba82-ea66-4819-bfd7-c9545f78380b.png",
+    "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-95281df9-1b19-429c-b4b1-e46b45761c2e.png"
+  ],
+  "common_prompt": "Traditional late eighteenth / early nineteenth century nautical book engraving. Mature, natural proportions, dignified seafarer, chest-up three-quarter portrait. Entire head, hat and shoulders in generous white margin. Strong black contours, restrained broad hatching and solid black shadows; readable at 48x56 pixels. One person on white; no frame, scenery, text, numbers, fantasy, cartoon or grey photographic shading."
+}

@@ -1,0 +1,37 @@
+{
+  "mode": "built-in image_gen",
+  "intent": "generate",
+  "created": "2026-09-05",
+  "assets": [
+    {
+      "name": "captains-v2",
+      "prompt": "Use case: historical-scene. Asset type: a production portrait sheet for a mature maritime trading game on a monochrome e-paper reader. Create exactly 16 complete head-and-shoulders portraits in an exact 4 by 4 equal-cell square grid. No visible grid lines or frames. Every portrait must be centered in its own equal square cell with a generous 12 percent pure white margin on all four sides; no part crosses into another cell. All sixteen portraits should have the same scale and dignity. Refined adult circa-1810 maritime pen-and-ink engraving: realistic adult head and shoulder proportions, broad confident contours, sparse structural details, large clean white planes and solid black hair and merchant coats. Distinct people aged 30 to 65, varied women and men with European, Black African, North African, South Asian, Southeast Asian and East Asian appearances, restrained alert expressions. Vary faces, hair, plain caps, bicornes, tied hair, headscarves, spectacles and coat collars, without insignia or rank markings. Faces must remain legible when each complete portrait is reduced to 48 by 56 pixels: simplify eyes, noses and mouths to a few bold marks, generous white gaps, no fine crosshatching. Pure black ink on pure white, absolutely no gray wash, halftone, dithering, stippling or aged paper. No pixel art, cartoon, cute or childish forms. No UI, text, letters, numerals, watermarks or decorative frames. Square canvas, exact four rows and four columns, sixteen portraits only.",
+      "source": "~/.codex/generated_images/01a06fd9-d708-7e53-a813-14b53a5e255e/exec-3e886748-a41e-4bff-8d07-a870d34e9639.png",
+      "output": "assets/source/x4/captains-v2.png",
+      "sourceSize": { "width": 1254, "height": 1254 },
+      "grid": {
+        "columns": 4,
+        "rows": 4
+      },
+      "nativeCell": {
+        "width": 48,
+        "height": 56
+      }
+    },
+    {
+      "name": "region-stamps-v2",
+      "prompt": "Use case: historical-scene. Asset type: six regional seals for a mature circa-1810 maritime trading game on monochrome e-paper. Create exactly six complete circular emblems, arranged in an exact grid of three columns and two rows on a wide 3:2 pure white canvas. Equal square cells, no visible grid lines. Every seal has 15 percent white margin on every side within its cell. Each seal has the same restrained double-circle rim, with a simple bold central symbol. Row one left to right: a harbor clock tower with an anchor; a palm tree over a landing; a squat lighthouse on a headland. Row two left to right: a broad-roof tea pavilion with one tea leaf; a bottle kiln with a porcelain bowl; a coastal signal tower. Restrained adult maritime pen-and-ink engraving, broad confident contours, sparse structural detail, solid black shapes and large clear white gaps. Each full emblem must read clearly when reduced to 40 by 40 pixels. Pure black on pure white only: no gray wash, shading, halftone, dithering, stippling or aged paper. No flourish, laurel, rope decoration, UI, text, letters, numerals, watermarks, extra symbols, frames around cells, pixel art, cartoons or childish forms. Exact three columns by two rows, six seals only.",
+      "source": "~/.codex/generated_images/01a06fd9-d708-7e53-a813-14b53a5e255e/exec-5718d77a-0a85-41cd-9d0c-ae2a6b7111e2.png",
+      "output": "assets/source/x4/region-stamps-v2.png",
+      "sourceSize": { "width": 1536, "height": 1024 },
+      "grid": {
+        "columns": 3,
+        "rows": 2
+      },
+      "nativeCell": {
+        "width": 40,
+        "height": 40
+      }
+    }
+  ]
+}

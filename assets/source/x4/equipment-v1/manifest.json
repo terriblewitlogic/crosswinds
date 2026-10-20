@@ -1,0 +1,186 @@
+[
+  {
+    "id": "parcel",
+    "size": 24,
+    "description": "a folded paper parcel tied with coarse crossed twine and a round dark wax seal; three-quarter view; clearly a postal package, not a wooden trade chest",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-7fa71645-8a29-4352-83e5-ec3f2ee927bf.png",
+    "crop": [
+      540,
+      550,
+      709,
+      686
+    ],
+    "sourceInkSize": [
+      169,
+      136
+    ],
+    "fittedSize": [
+      22,
+      18
+    ],
+    "reductionCount": 1,
+    "threshold": 168,
+    "sourceSha256": "4748da4c8c4fbac78b29d7c6e084fb240a30b4489237c5f0bb735325c8ca51c4"
+  },
+  {
+    "id": "fitting-0",
+    "size": 32,
+    "description": "two long wooden water casks lashed together, visible curved staves and dark iron hoops",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-66c3ae22-23d2-4041-aba8-0d53ea9b0a25.png",
+    "crop": [
+      509,
+      516,
+      744,
+      701
+    ],
+    "sourceInkSize": [
+      235,
+      185
+    ],
+    "fittedSize": [
+      30,
+      24
+    ],
+    "reductionCount": 1,
+    "threshold": 168,
+    "sourceSha256": "296d3f38409e09c4018cd165d170823cacda0d564e256216638b2c21dd9415c4"
+  },
+  {
+    "id": "fitting-1",
+    "size": 32,
+    "description": "a cutaway timber ship bulkhead: thick vertical planks with a stout curved rib and cross-brace, freestanding section",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-1ae5dd01-51c2-475a-ab01-2fc58cd728d3.png",
+    "crop": [
+      558,
+      493,
+      709,
+      744
+    ],
+    "sourceInkSize": [
+      151,
+      251
+    ],
+    "fittedSize": [
+      18,
+      30
+    ],
+    "reductionCount": 1,
+    "threshold": 168,
+    "sourceSha256": "bd25f093181d2e0158ffdbf3fead8753a0bf446455b8b0e7b23736cccdda0d67"
+  },
+  {
+    "id": "fitting-2",
+    "size": 32,
+    "description": "a compact wooden shipboard bunk with a rolled blanket and pillow, clearly a sleeping berth",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-49c2bc3f-397b-47e5-9547-379679858e90.png",
+    "crop": [
+      540,
+      559,
+      715,
+      692
+    ],
+    "sourceInkSize": [
+      175,
+      133
+    ],
+    "fittedSize": [
+      30,
+      23
+    ],
+    "reductionCount": 1,
+    "threshold": 168,
+    "sourceSha256": "a9b51a82ed413c025715cd3daab054410e5e8fd14b8d259c985c4aa4d7ccd064"
+  },
+  {
+    "id": "fitting-3",
+    "size": 32,
+    "description": "a short historical bronze swivel gun barrel with flared muzzle on its forked pivot and wooden rail mount",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-e9f6a0f5-eae8-43ca-9431-75f3be1bdabc.png",
+    "crop": [
+      551,
+      557,
+      725,
+      703
+    ],
+    "sourceInkSize": [
+      174,
+      146
+    ],
+    "fittedSize": [
+      30,
+      25
+    ],
+    "reductionCount": 1,
+    "threshold": 168,
+    "sourceSha256": "9ffd8f9a0e74601ca7fb2f834808cbaffb15ce0bbc9849567ad21bdce8608393"
+  },
+  {
+    "id": "fitting-4",
+    "size": 32,
+    "description": "a curved cutaway ship hull section clad in three overlapping rows of copper sheathing plates with a few visible nail heads",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-5cf2e40d-cded-4955-88e0-9dabc552165f.png",
+    "crop": [
+      538,
+      531,
+      716,
+      719
+    ],
+    "sourceInkSize": [
+      178,
+      188
+    ],
+    "fittedSize": [
+      28,
+      30
+    ],
+    "reductionCount": 1,
+    "threshold": 168,
+    "sourceSha256": "523e4a508c3c4997ad44f4c5ec2d2d8394d8e75dd885ab79bb34b34373b62cd7"
+  },
+  {
+    "id": "fitting-5",
+    "size": 32,
+    "description": "a short mast and yard with a tightly reefed sail tied in three bands, two bold supporting ropes; storm-ready rigging",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-163ee90f-d6ba-475b-af43-10dfa7a5854e.png",
+    "crop": [
+      502,
+      504,
+      752,
+      733
+    ],
+    "sourceInkSize": [
+      250,
+      229
+    ],
+    "fittedSize": [
+      30,
+      27
+    ],
+    "reductionCount": 1,
+    "threshold": 168,
+    "sourceSha256": "8d435ff250e4b59aa182df1af0958327771e22963f14fe17de8e408f8dc6d9c6"
+  },
+  {
+    "id": "fitting-6",
+    "size": 32,
+    "description": "a fork-tailed merchant charter pennant flying from a short angled staff, with a tiny compass-star emblem; confident cloth folds",
+    "original": "~/.codex/generated_images/01a06fcd-86a2-7c81-9da7-1a611d8ef1a5/exec-2669d79d-381d-4ae4-a071-7ffc3349f91c.png",
+    "crop": [
+      543,
+      542,
+      725,
+      697
+    ],
+    "sourceInkSize": [
+      182,
+      155
+    ],
+    "fittedSize": [
+      30,
+      26
+    ],
+    "reductionCount": 1,
+    "threshold": 168,
+    "sourceSha256": "72a0bbedcae6749aed836f2b64a21886569364d8992caf95f8f727a2f41c59a2"
+  }
+]

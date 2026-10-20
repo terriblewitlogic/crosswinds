@@ -1,0 +1,16 @@
+.DS_Store
+*.bin
+*.elf
+*.map
+__pycache__/
+*.pyc
+.env
+.env.*
+build/
+tools/host/build_*/
+tools/host/host_fs/
+tools/host/vendor/
+tools/headless/build/
+tools/device_build/
+tools/device_backups/
+tools/device_resets/

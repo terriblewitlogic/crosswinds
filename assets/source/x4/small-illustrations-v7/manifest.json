@@ -1,0 +1,170 @@
+[
+  {
+    "id": "grain",
+    "source": "assets/source/x4/tiny-sprites-v6/generated-native-reference.png",
+    "sourceSha256": "f5a9c3f2c808ffab0c05bcce06b8302c1abf6bdb29e08a23cbe0f2a34449cf75",
+    "crop": [
+      278,
+      262,
+      310,
+      291
+    ],
+    "sourceInkSize": [
+      32,
+      29
+    ],
+    "fittedSize": [
+      22,
+      20
+    ],
+    "runtimeSize": [
+      24,
+      24
+    ],
+    "resampling": "BOX, once before threshold",
+    "scaleX": 0.6875,
+    "scaleY": 0.6896551724137931,
+    "threshold": 168,
+    "sha256": "b8a9fbf8d214204c14504f3738b9788d00db6a0aec509a0cf3fb461dabe77b84"
+  },
+  {
+    "id": "porcelain",
+    "source": "assets/source/x4/tiny-sprites-v6/generated-native-reference.png",
+    "sourceSha256": "f5a9c3f2c808ffab0c05bcce06b8302c1abf6bdb29e08a23cbe0f2a34449cf75",
+    "crop": [
+      826,
+      265,
+      860,
+      291
+    ],
+    "sourceInkSize": [
+      34,
+      26
+    ],
+    "fittedSize": [
+      22,
+      17
+    ],
+    "runtimeSize": [
+      24,
+      24
+    ],
+    "resampling": "BOX, once before threshold",
+    "scaleX": 0.6470588235294118,
+    "scaleY": 0.6538461538461539,
+    "threshold": 168,
+    "sha256": "decd182660f01a0a125c2c3cbe9ec79ef4f24de67e1216dd8d4acb25d02ed404"
+  },
+  {
+    "id": "clocktower",
+    "source": "assets/source/x4/tiny-sprites-v6/generated-native-reference.png",
+    "sourceSha256": "f5a9c3f2c808ffab0c05bcce06b8302c1abf6bdb29e08a23cbe0f2a34449cf75",
+    "crop": [
+      285,
+      601,
+      332,
+      671
+    ],
+    "sourceInkSize": [
+      47,
+      70
+    ],
+    "fittedSize": [
+      35,
+      52
+    ],
+    "runtimeSize": [
+      64,
+      56
+    ],
+    "resampling": "BOX, once before threshold",
+    "scaleX": 0.7446808510638298,
+    "scaleY": 0.7428571428571429,
+    "threshold": 168,
+    "sha256": "8a8322b3facdc670608127f2a95de688a26dfee531dfe93e148a4d205f9f981d"
+  },
+  {
+    "id": "office",
+    "source": "assets/source/x4/tiny-sprites-v6/generated-native-reference.png",
+    "sourceSha256": "f5a9c3f2c808ffab0c05bcce06b8302c1abf6bdb29e08a23cbe0f2a34449cf75",
+    "crop": [
+      822,
+      611,
+      882,
+      662
+    ],
+    "sourceInkSize": [
+      60,
+      51
+    ],
+    "fittedSize": [
+      35,
+      30
+    ],
+    "runtimeSize": [
+      48,
+      32
+    ],
+    "resampling": "BOX, once before threshold",
+    "scaleX": 0.5833333333333334,
+    "scaleY": 0.5882352941176471,
+    "threshold": 168,
+    "sha256": "6920dffb509aca388eda6396d8c3ddd8a0830cf10d90994e7e2a721abf2d2b50"
+  },
+  {
+    "id": "warehouse",
+    "source": "assets/source/x4/tiny-sprites-v6/generated-native-reference.png",
+    "sourceSha256": "f5a9c3f2c808ffab0c05bcce06b8302c1abf6bdb29e08a23cbe0f2a34449cf75",
+    "crop": [
+      820,
+      956,
+      885,
+      996
+    ],
+    "sourceInkSize": [
+      65,
+      40
+    ],
+    "fittedSize": [
+      46,
+      28
+    ],
+    "runtimeSize": [
+      48,
+      32
+    ],
+    "resampling": "BOX, once before threshold",
+    "scaleX": 0.7076923076923077,
+    "scaleY": 0.7,
+    "threshold": 168,
+    "sha256": "027dccb50e5b12707a52005a76479f6156443d3b3f413a19d04346352d7734d8"
+  },
+  {
+    "id": "meridian",
+    "source": "assets/source/x4/tiny-sprites-v6/generated-native-reference.png",
+    "sourceSha256": "f5a9c3f2c808ffab0c05bcce06b8302c1abf6bdb29e08a23cbe0f2a34449cf75",
+    "crop": [
+      279,
+      952,
+      323,
+      996
+    ],
+    "sourceInkSize": [
+      44,
+      44
+    ],
+    "fittedSize": [
+      38,
+      38
+    ],
+    "runtimeSize": [
+      40,
+      40
+    ],
+    "resampling": "BOX, once before threshold",
+    "scaleX": 0.8636363636363636,
+    "scaleY": 0.8636363636363636,
+    "threshold": 168,
+    "sha256": "f2b8f9180b541f61b754db4f0da289d97b0b2b5fb9165ff25f6ecb923e2eff9b"
+  }
+]

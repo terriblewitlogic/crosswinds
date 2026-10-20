@@ -1,0 +1,7 @@
+{
+  "landmark-1": {"threshold": 155},
+  "landmark-2": {"threshold": 155},
+  "landmark-6": {"threshold": 155},
+  "landmark-7": {"threshold": 155},
+  "landmark-12": {"threshold": 155}
+}

@@ -1,0 +1,8 @@
+Use case: precise-object-edit.
+Keep the entire1254x1254 canvas, labels, empty space and drawing positions from this image unchanged. Keep the six maritime illustrated designs and three-quarter perspectives. This is a final exact pixel-size correction for four drawings, not a change into symbolic icons.
+GRAIN current24x26 must be redrawn to at most20x22 actual pixels INCLUDING the wheat stalk. Preserve white bag, tied neck and wheat stalk.
+PORCELAIN current33x24 must be redrawn to at most22x17 actual pixels including handle and saucer. Thin hand-drawn dark outline, white elliptical mouth, white cup front with a small flower mark. NO black-filled cup or heavy solid rim.
+OFFICE current40x39 must be redrawn to at most31x29 actual pixels including chimney and steps. Preserve its two stories, three-quarter facade, pediment, formal door, arched upper windows.
+WAREHOUSE current42x33 must be redrawn to at most37x28 actual pixels including platform and lean-to. Preserve deep perspective, pitched timber gable and open loading doors.
+Leave the clocktower and Meridian seal at their current exact sizes and positions.
+Across all drawings preserve white surfaces and delicate engraved contour character. Use thinner black contour lines and a few short directional hatches for side-face shade rather than filling whole side walls solid black. Keep two visible clock faces. No grey haze or background shadow. No thick uniform pictogram strokes. These are small historical maritime book illustrations. Do not change the architecture. Do not enlarge or zoom any item or the canvas. The complete page must remain almost entirely blank, with the tiny illustrations at the same locations.
