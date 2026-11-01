@@ -29,20 +29,14 @@ BACK at the top level opens the menu. Voyages continue during standby.
 
 ## Install
 
-**Installation replaces the device firmware and partition table.** Keep a full flash backup. USB flashing must be unlocked.
+Download the prebuilt firmware from [Releases](https://github.com/terriblewitlogic/crosswinds/releases/latest). No build required.
 
-Requires `arduino-cli`, Espressif `esp32` core 3.x (tested with 3.3.10), and LovyanGFX 1.2.24.
+- **First install:** use `full.bin`. Replaces the reader firmware and resets saves.
+- **Update Crosswinds:** use `app.bin`. Keeps existing Crosswinds saves.
 
-```sh
-git clone https://github.com/terriblewitlogic/crosswinds.git
-cd crosswinds
-make -C tools/host deps
-make upload-x4 PORT=/dev/cu.usbmodem...
-```
+[USB installation and backup instructions](docs/INSTALL.md) · [Build from source](docs/HARDWARE.md#build-and-flash)
 
-Replace `PORT` with your device's serial port. Upload compiles, backs up the full flash, and verifies the installed firmware. A failed compile or backup stops installation.
-
-[Hardware and recovery notes](docs/HARDWARE.md). Backup restoration has not been tested; standby battery draw and clock drift are unmeasured.
+USB flashing must be unlocked. Backup restoration has not been tested; standby battery draw and clock drift are unmeasured.
 
 ## Desktop
 
