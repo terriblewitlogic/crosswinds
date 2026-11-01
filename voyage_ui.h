@@ -7,6 +7,13 @@ static inline bool voyage_watch_screen() {
   return x4_watch_active() && g_ui.scene == SCENE_WORLD && g_ui.card == CARD_NONE;
 }
 
+// Leave room for the padded instruction strip on touch screens.
+#if defined(SH_TOUCH_UI)
+static constexpr int VOYAGE_ACTION_Y = 396;
+#else
+static constexpr int VOYAGE_ACTION_Y = 408;
+#endif
+
 // Main places use top tabs. Transaction cards have only their own actions.
 static inline bool voyage_dispatch_card(uint8_t card, uint8_t page) {
   return card == CARD_SHIP || merchant_card(card) || card == CARD_VOYAGE_LOAD || card == CARD_VOYAGE_DEPARTURE ||
@@ -24,21 +31,21 @@ static inline HitRegion voyage_footer_region(uint8_t card, int id) {
     return {(int16_t)(id == 0 ? 32 : 288), 380, (int16_t)(id == 0 ? 240 : 480), 48, (int8_t)id};
   }
   if (card == CARD_NONE && g_ui.scene == SCENE_FLEET)
-    return {(int16_t)(24 + id * 128), 408, 112, 40, (int8_t)id};
+    return {(int16_t)(24 + id * 128), VOYAGE_ACTION_Y, 112, 40, (int8_t)id};
   return CARD_FOOTER[id];
 }
 static inline HitRegion voyage_scene_region(uint8_t command, int slot) {
   if(command==X4_CMD_BACK)return {24,48,112,40,(int8_t)slot};
   if (command == X4_CMD_WATCH_READY || command == X4_CMD_WATCH_MAP || command == X4_CMD_WATCH_NEXT) {
     int i = command == X4_CMD_WATCH_READY ? 0 : command == X4_CMD_WATCH_NEXT ? 1 : 2;
-    return {(int16_t)(24 + i * 256), 408, 240, 40, (int8_t)slot};
+    return {(int16_t)(24 + i * 256), VOYAGE_ACTION_Y, 240, 40, (int8_t)slot};
   }
   if (command >= X4_CMD_SHIP_0 && command <= X4_CMD_SHIP_2)
     return g_ui.scene == SCENE_COMPANY ? HitRegion{24, (int16_t)(142 + (command - X4_CMD_SHIP_0) * 80), 752, 70, (int8_t)slot} : voyage_fleet_row_region(command - X4_CMD_SHIP_0);
   if ((command == X4_CMD_PAGE_PREV || command == X4_CMD_PAGE_NEXT) && g_ui.scene == SCENE_COMPANY)
     return {(int16_t)(command == X4_CMD_PAGE_PREV ? 600 : 688), 50, 80, 38, (int8_t)slot};
   if (g_ui.scene == SCENE_WORLD && !x4_watch_active() && command != X4_CMD_FLEET && command != X4_CMD_MAP && command != X4_CMD_COMPANY)
-    return {(int16_t)(MAP_X + slot * 142), 408, 134, 40, (int8_t)slot};
+    return {(int16_t)(MAP_X + slot * 142), VOYAGE_ACTION_Y, 134, 40, (int8_t)slot};
   if (command == X4_CMD_PAGE_PREV || command == X4_CMD_PAGE_NEXT)
     return voyage_footer_region(CARD_NONE, command == X4_CMD_PAGE_PREV ? 0 : 1);
   if (command == X4_CMD_FLEET || command == X4_CMD_MAP || command == X4_CMD_COMPANY) {
@@ -46,8 +53,8 @@ static inline HitRegion voyage_scene_region(uint8_t command, int slot) {
     return {(int16_t)(24 + tab * 256), 48, 240, 40, (int8_t)slot};
   }
   if (g_ui.scene == SCENE_COMPANY)
-    return {(int16_t)(24 + (command == X4_CMD_LEDGER ? 384 : 0)), 408, 368, 40, (int8_t)slot};
-  return {(int16_t)(24 + slot * 256), 408, 240, 40, (int8_t)slot};
+    return {(int16_t)(24 + (command == X4_CMD_LEDGER ? 384 : 0)), VOYAGE_ACTION_Y, 368, 40, (int8_t)slot};
+  return {(int16_t)(24 + slot * 256), VOYAGE_ACTION_Y, 240, 40, (int8_t)slot};
 }
 
 static inline void voyage_goods_text(const uint8_t goods[2], char* out, size_t cap) {
@@ -68,7 +75,7 @@ static constexpr uint8_t VOYAGE_DETAIL_CARDS[] = {
 };
 static constexpr const char* VOYAGE_DETAIL_LABELS[] = {
   "Ships", "Cargo & warehouse", "Open market", "Legacy contracts", "Custom routes", "Ships & port works",
-  "Captains", "Sea Atlas", "Keepsakes", "Ledger & journal", "Notices", "Market event", "Controls & help", "Settings",
+  "Captains", "Sea Atlas", "Keepsakes", "Ledger & journal", "Notices", "Market event", SH_UI_TEXT("Controls & help", "Help"), "Settings",
 };
 static constexpr int VOYAGE_DETAIL_COUNT = sizeof(VOYAGE_DETAIL_CARDS) / sizeof(VOYAGE_DETAIL_CARDS[0]);
 

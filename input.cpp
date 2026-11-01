@@ -31,6 +31,9 @@ static void x4_goal_moment_close();
 static void x4_story_moment_open(uint8_t mode, uint8_t chapter);
 static void x4_story_moment_close();
 static void x4_onboarding_focus();
+#if defined(SH_TOUCH_UI)
+static void x4_onboarding_touch(int x, int y);
+#endif
 static uint8_t x4_footer_mask();
 static void x4_focus_load_row(int row);
 static void x4_merchant_open(int mode = -1);
@@ -776,7 +779,12 @@ static void handle_touch(int x, int y) {
   mapTouchActive = false;
   if (x4_goal_moment_active()) { x4_goal_moment_close(); return; }
   if (x4_story_moment_active()) { x4_story_moment_close(); return; }
-  if (x4_onboarding_screen()) return;  // the captain screens are keys only
+  if (x4_onboarding_screen()) {
+#if defined(SH_TOUCH_UI)
+    x4_onboarding_touch(x, y);
+#endif
+    return;
+  }
   if (x4_touch_return_gate()) return;
   if (g_ui.title) {
     g_ui.title = 0;
@@ -1425,6 +1433,30 @@ static void x4_onboarding_press(uint8_t action) {
   g_ui.dirty = 1;
   board_x4_discard_button_events();
 }
+
+#if defined(SH_TOUCH_UI)
+// The captain screens on the panel: tapping a candidate hires them, and the
+// buttons stand for the X4's keys.
+static void x4_onboarding_touch(int x, int y) {
+  if (sim_onboarding_step() != ONBOARD_NAME) {
+    for (int i = 0; i < 3; ++i) {
+      HitRegion r = x4_onboarding_card_region(i);
+      if (hit_test(&r, 1, x, y) < 0) continue;
+      onboardPick = (uint8_t)i;
+      x4_onboarding_press(X4_ACT_OK);
+      return;
+    }
+    HitRegion skip = x4_onboarding_button_region(3);
+    if (hit_test(&skip, 1, x, y) >= 0) x4_onboarding_press(X4_ACT_BACK);
+    return;
+  }
+  static constexpr uint8_t ACTIONS[3] = { X4_ACT_DOWN, X4_ACT_OK, X4_ACT_BACK };
+  for (int i = 0; i < 3; ++i) {
+    HitRegion r = x4_onboarding_button_region(i);
+    if (hit_test(&r, 1, x, y) >= 0) { x4_onboarding_press(ACTIONS[i]); return; }
+  }
+}
+#endif
 
 // The guided voyage ends with its own goal moment: the first profit.
 static void x4_onboarding_tick() {
@@ -2625,3 +2657,44 @@ void input_update() {
   }
   lastDown = down;
 }
+
+#if defined(SH_TOUCH_UI)
+// The board classifies contacts; dispatch completed gestures only, so a swipe
+// cannot also activate the button where it started.
+void crosswinds_touch_tap(int x, int y) {
+  if (x < 0 || x >= IW || y < 0 || y >= IH) return;
+  x4InputPending = true;
+  handle_touch(x, y);
+  if (mapTouchActive) handle_map_touch_release();
+}
+
+void crosswinds_touch_swipe(int startX, int startY, int endX, int endY) {
+  if (g_ui.title || x4_goal_moment_active() || x4_story_moment_active() ||
+      x4_onboarding_screen()) return;
+  if (x4_touch_return_gate()) return;
+  x4InputPending = true;
+  const bool onChart = g_ui.scene == SCENE_WORLD && g_ui.card == CARD_NONE &&
+    !x4_watch_active() && startX >= MAP_X && startX < MAP_X + MAP_DRAW_W &&
+    startY >= MAP_Y && startY < MAP_Y + MAP_DRAW_H;
+  if (onChart) {
+    handle_touch(startX, startY);
+    if (mapTouchActive) {
+      handle_map_touch_move(endX, endY);
+      handle_map_touch_release();
+    }
+    return;
+  }
+  const int dx = endX - startX, dy = endY - startY;
+  if (abs(dy) < 56 || abs(dy) <= abs(dx)) return;
+  const int dir = dy < 0 ? 1 : -1;
+  if (g_ui.card == CARD_NONE) {
+    const uint8_t command = dir < 0 ? X4_CMD_PAGE_PREV : X4_CMD_PAGE_NEXT;
+    if (x4_column_slot(command) >= 0) x4_run_command(command);
+  } else if (merchant_card(g_ui.card)) {
+    if (!x4_merchant_editing() && x4_merchant_good_count() > 2) x4_merchant_row(dir < 0 ? 5 : 6);
+  } else if (g_ui.card != CARD_VOYAGE_LOAD && g_ui.card != CARD_MARKET && g_ui.card != CARD_INCIDENT) {
+    x4_page(dir);
+  }
+  g_ui.dirty = 1;
+}
+#endif

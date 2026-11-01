@@ -151,3 +151,18 @@ clean:
 
 .PHONY: play-x4 shot-x4 gallery-x4 gallery-x4-sheet x4-test x4-nav-test x4-navigation-test x4-growth-test x4-delivery-test x4-route-geometry-test x4-watch-test load-test power-test headless-test voyage-test standby-test save-test ubsan art x4-routes verify device-x4 upload-x4 clean
 .PHONY: backup-x4
+
+# Pro simulator uses the same game and touch layout; hardware drivers are stubbed.
+PIO ?= pio
+.PHONY: device-x4pro play-x4pro x4pro-test
+device-x4pro:
+	$(PIO) run -e x4pro
+
+play-x4pro:
+	$(MAKE) -C tools/host play-x4 X4_BUILD=build_x4pro X4_FEATURE_FLAGS="-DSH_TOUCH_UI=1 -DSH_X4_VOYAGE_STANDBY=0" LGFX="$(LGFX)"
+
+x4pro-test:
+	@mkdir -p tools/headless/build
+	$(CXX) -std=c++17 -Wall -Wextra -Werror tools/headless/pro_power_test.cpp -o tools/headless/build/pro_power_test
+	tools/headless/build/pro_power_test
+	$(MAKE) -C tools/host touch-test X4_BUILD=build_x4pro X4_FEATURE_FLAGS="-DSH_TOUCH_UI=1 -DSH_X4_VOYAGE_STANDBY=0" LGFX="$(LGFX)"

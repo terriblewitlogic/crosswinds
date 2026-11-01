@@ -27,6 +27,9 @@ jobs:
       - name: Run every check
         run: make verify
 
+      - name: Test Pro touch controls
+        run: make x4pro-test
+
   firmware:
     runs-on: ubuntu-latest
     steps:
@@ -46,3 +49,19 @@ jobs:
 
       - name: Build the X4 firmware
         run: make device-x4
+
+  firmware-pro:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          submodules: recursive
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Install PlatformIO
+        run: pip install pioarduino==6.1.19
+      - name: Build standalone X4 Pro
+        run: pio run -e x4pro
+      - name: Verify installation images
+        run: python tools/device/package_x4pro.py --tag ci

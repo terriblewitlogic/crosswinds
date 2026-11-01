@@ -438,6 +438,9 @@ static void dump_ppm_native(const char* path) {
 #include "x4_story_test.h"
 #include "x4_atlas_test.h"
 #include "x4_onboarding_test.h"
+#ifdef SH_TOUCH_UI
+#include "TouchJourney.h"
+#endif
 struct X4ManifestProbe {
   uint16_t afterKey;
   uint8_t page, scroll, cargo, warehouse;
@@ -1899,6 +1902,9 @@ static int user_func(bool* running) {
   if (getenv("SH_X4_GOAL_MOMENT_TEST")) host_test_exit(run_x4_goal_moment_test() ? 0 : 1);
   if (getenv("SH_X4_STORY_TEST")) host_test_exit(run_x4_story_test() ? 0 : 1);
   if (getenv("SH_X4_ATLAS_TEST")) host_test_exit(run_x4_atlas_test() ? 0 : 1);
+  #ifdef SH_TOUCH_UI
+  if (getenv("SH_TOUCH_TEST")) host_test_exit(run_crosswinds_touch_test() ? 0 : 1);
+  #endif
   if (getenv("SH_X4_ONBOARDING_TEST")) host_test_exit(run_x4_onboarding_test() ? 0 : 1);
   if (const char* atlas = getenv("SH_X4_SCREEN_ATLAS")) host_test_exit(run_x4_screen_atlas(atlas) ? 0 : 1);
   if (getenv("SH_X4_NAVIGATION_TEST")) host_test_exit(run_x4_navigation_test() ? 0 : 1);

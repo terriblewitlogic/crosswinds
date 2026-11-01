@@ -65,6 +65,9 @@ static uint32_t hostPushCount = 0;
 // ---------------------------------------------------------------------------
 
 static const lgfx::IFont* text_font(int scale) {
+#if defined(SH_TOUCH_UI)
+  if (scale == 1) return &fonts::FreeSans9pt7b;
+#endif
   if (scale >= 5) return &fonts::FreeSansBold24pt7b;
   if (scale >= 4) return &fonts::FreeSansBold24pt7b;
   if (scale >= 3) return &fonts::FreeSansBold18pt7b;
@@ -436,7 +439,7 @@ static void draw_column_buttons() {
 // Legend for the four front buttons along the right edge, shown on the title
 // screen only. The cell of the button pressed last is inverted, so the mapping
 // teaches itself before play starts.
-static void draw_legend() {
+[[maybe_unused]] static void draw_legend() {
   const int legendX = LEGEND_X - 48, legendW = LEGEND_W + 48;
   display.fillRect(legendX, 0, legendW + 8, IH, PAPER);
   display.drawFastVLine(legendX, 0, IH, INK);
@@ -1403,9 +1406,9 @@ static void draw_route_card() {
     row_text(2, route.sellMode ? "Auto-sell profitable cargo: ON" : "Auto-sell profitable cargo: OFF");
     snprintf(line, sizeof(line), "Purchase rule: %s",
              route.buyGood < GOOD_COUNT ? GOOD_DEFS[route.buyGood].name : "None");
-    row_text(3, line, "OK changes; None disables");
+    row_text(3, line, SH_UI_TEXT("OK changes; None disables", "Tap to change; None disables"));
     snprintf(line, sizeof(line), "Maximum purchase price: %u coins", route.maxBuyPrice);
-    row_text(4, line, "Rocker adjusts by 10", INK, false, route.buyGood < GOOD_COUNT);
+    row_text(4, line, SH_UI_TEXT("Rocker adjusts by 10", "Tap left -10, right +10"), INK, false, route.buyGood < GOOD_COUNT);
     row_text(5, route.stopCount ? "Saved route is ready" : "No saved route",
              route.stopCount ? "Preview, then apply" : "Save a route first",
              INK, false, route.stopCount > 0);
@@ -1552,7 +1555,7 @@ static void draw_market_card() {
     snprintf(line, sizeof(line), "Sell %u: +%ld", sell.quantity, (long)sell.treasuryDelta);
     text_fit_at(x + 212, 277, 212, INK, line);
     const char* reason = sell.withholding ? "Sales shown after debt withholding." :
-                                          "Coins include duty; rocker trades 5.";
+                                          SH_UI_TEXT("Coins include duty; rocker trades 5.", "Coins include duty.");
     if (buy.quantity < 5) {
       if (buy.quantity) {
         const char* limit = buy.stopReason == SIM_NO_CAPACITY ? "hold space" :
@@ -1694,8 +1697,8 @@ static void draw_incident_card() {
              risk_word(g_incident.risk), loyalty, scarred ? (int)BALANCE.captainScarModifier : 0);
     row_text(0, primary, secondary, INK, true);
   }
-  text_at(center_text(CARD_X, CARD_W, "UP / DOWN choose, OK decides", 2),
-          INCIDENT_OPTIONS[0].y - 24, INK, "UP / DOWN choose, OK decides", 2);
+  const char* choose = SH_UI_TEXT("UP / DOWN choose, OK decides", "Tap a choice");
+  text_at(center_text(CARD_X, CARD_W, choose, 2), INCIDENT_OPTIONS[0].y - 24, INK, choose, 2);
   for (int i = 0; i < 3; ++i) {
     // Options with a fixed price say so; the rest depend on the roll.
     char label[64];
@@ -1828,7 +1831,7 @@ static void draw_menu_card() {
     snprintf(progress, sizeof(progress), "Stage %u of %d", sim_stage() + 1, STAGE_COUNT);
     const char* detail = row == 2 ? speed :
       (row == 3 ? progress :
-       (row == 5 ? (g_ui.confirmReset ? "OK again erases company" : "Erase and start again") : row==0 && g_campaign.economyVersion>=2 ? "Safe passage: automatic / No spending" : nullptr));
+       (row == 5 ? (g_ui.confirmReset ? SH_UI_TEXT("OK again erases company", "Tap again to erase the company") : "Erase and start again") : row==0 && g_campaign.economyVersion>=2 ? "Safe passage: automatic / No spending" : nullptr));
     row_text(row, label, detail, INK, selected);
   }
   draw_button(CARD_FOOTER[0], "SAVE");
@@ -1859,9 +1862,9 @@ static void draw_help_card() {
   card_frame("Captain's Notes");
   if (g_campaign.economyVersion >= 2) {
     static const char* lines[] = {
-      "UP/DOWN choose; OK opens; BACK returns.",
-      "Trade: rocker switches the top tabs.",
-      "Select a good: UP + / DOWN - / OK confirm.",
+      SH_UI_TEXT("UP/DOWN choose; OK opens; BACK returns.", "Tap a row or button; BACK returns."),
+      SH_UI_TEXT("Trade: rocker switches the top tabs.", "Trade: Buy, Sell, Parcels tabs at the top."),
+      SH_UI_TEXT("Select a good: UP + / DOWN - / OK confirm.", "Tap a good, then - and + set the amount."),
       "Parcels are free; one space each.",
       "Hazards use the shown safe fallback.",
 #if   SH_X4_VOYAGE_STANDBY
@@ -1879,8 +1882,8 @@ static void draw_help_card() {
   snprintf(jobs, sizeof(jobs), "Full hold to one port earns +%u%%.",
            BALANCE.consolidationBonusPercent);
   static const char* lines[] = {
-    "UP/DOWN choose; OK opens; BACK returns.",
-    "Rocker: ports, pages, or trade up to 5.",
+    SH_UI_TEXT("UP/DOWN choose; OK opens; BACK returns.", "Tap a row or button; BACK returns."),
+    SH_UI_TEXT("Rocker: ports, pages, or trade up to 5.", "Side keys: ports and pages."),
     nullptr,
     "Travel times: real minutes at your speed.",
     "NOTICES: arrivals, incidents and repairs.",
@@ -2102,10 +2105,10 @@ static void draw_tutorial_card() {
   if (g_campaign.economyVersion >= 2) {
     static const char* const titles[]={"Your first sale","Buy for the next port","Choose where to sail","Watch your voyage","Sell on your terms","Parcels are optional"};
     static const char* const lines[][3]={
-      {"Your ship starts with 2 Grain, a gift.","Open your ship, then TRADE > SELL.","OK selects. Up/down sets quantity. OK sells."},
-      {"Rocker: Buy / Sell / Parcels.","Buy goods this port MAKES.","Sell at a port that WANTS them for more."},
+      {"Your ship starts with 2 Grain, a gift.","Open your ship, then TRADE > SELL.",SH_UI_TEXT("OK selects. Up/down sets quantity. OK sells.", "Tap the good, set the amount, tap SELL.")},
+      {SH_UI_TEXT("Rocker: Buy / Sell / Parcels.", "Tabs: Buy / Sell / Parcels."),"Buy goods this port MAKES.","Sell at a port that WANTS them for more."},
       {"BACK to your ship, then choose SAIL.","Compare what each port wants and pays.","Choose a port, review, then confirm."},
-      {"WATCH follows your boat across the sea.","Travel continues while the device sleeps.","Unanswered incidents take the free safe option."},
+      {"WATCH follows your boat across the sea.",SH_UI_TEXT("Travel continues while the device sleeps.", "Voyages pause while the device sleeps."),"Unanswered incidents take the free safe option."},
       {"Arrival leaves your goods aboard.","Open TRADE > SELL when the price suits you.","Sell one unit, several, or keep them all."},
       {"A parcel is free to accept and uses one slot.","It pays automatically at its named port.","Start with a small trade. Grow your fleet."}
     };
@@ -2226,6 +2229,9 @@ static void draw_card_hint() {
   }
   if(g_ui.card==CARD_TUTORIAL && g_campaign.economyVersion>=2)
     snprintf(controls,sizeof(controls),"OK selects / BACK previous / Rocker pages");
+#if defined(SH_TOUCH_UI)
+  controls[0] = 0;
+#endif
   const char* hint=controls;
   if(g_ui.card==CARD_INCIDENT && g_incident.active && g_incident.shipIndex<g_campaign.shipCount) {
     const Ship& ship=g_ships[g_incident.shipIndex];
@@ -2316,6 +2322,9 @@ static void draw_guidance_hint() {
 // Thick frame around the focused control. Larger targets get a white gap so
 // the frame reads even against a black (selected) button.
 static void draw_focus() {
+#if defined(SH_TOUCH_UI)
+  return;  // the focus cursor belongs to button navigation
+#endif
   HitRegion r;
   if (!x4_focus_region(&r)) return;
   if (r.h < 48) {
@@ -2339,7 +2348,7 @@ static void draw_title(const char* overridePrompt = nullptr) {
   display.setTextColor(INK);
   display.setTextDatum(lgfx::textdatum_t::top_left);
   display.drawString("CROSSWINDS", 32, 28);
-  const char* prompt = overridePrompt ? overridePrompt : g_bootResumed ? "Press OK to sail again" : "Press OK to begin";
+  const char* prompt = overridePrompt ? overridePrompt : g_bootResumed ? SH_UI_TEXT("Press OK to sail again", "Tap to sail again") : SH_UI_TEXT("Press OK to begin", "Tap to begin");
   int width = text_width(prompt) + 36;
   display.fillRoundRect(28, 414, width, 52, 5, PAPER);
   display.drawRoundRect(28, 414, width, 52, 5, INK);
@@ -2347,7 +2356,13 @@ static void draw_title(const char* overridePrompt = nullptr) {
 }
 
 static void draw_all() {
-  if (g_ui.title) { draw_title(); draw_legend(); return; }
+  if (g_ui.title) {
+    draw_title();
+#if !defined(SH_TOUCH_UI)
+    draw_legend();
+#endif
+    return;
+  }
   if (x4_goal_moment_active()) { draw_goal_moment(); return; }
   if (x4_story_moment_active()) { draw_story_moment(); return; }
   if (x4_onboarding_screen()) { draw_onboarding(); return; }

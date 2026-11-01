@@ -219,10 +219,10 @@ static bool onboarding_line(char* out, size_t cap) {
   if (step < ONBOARD_BUY || !captain || g_ui.title || g_ui.card == CARD_INCIDENT) return false;
   const char* say =
     step == ONBOARD_BUY ? (g_ui.card == CARD_TRADE && x4_merchant_editing() ?
-      "A full hold of Textiles. Press BUY." : "Textiles are cheap here. TRADE, then buy a hold full.") :
+      SH_UI_TEXT("A full hold of Textiles. Press BUY.", "A full hold of Textiles. Tap BUY.") : "Textiles are cheap here. TRADE, then buy a hold full.") :
     step == ONBOARD_SAIL ? "Now SAIL to Gullhaven. They pay well for Textiles." :
     step == ONBOARD_VOYAGE ? "Two minutes to Gullhaven. Watch us sail." :
-    g_ui.card == CARD_TRADE && x4_merchant_editing() ? "Sell them all. Press SELL." :
+    g_ui.card == CARD_TRADE && x4_merchant_editing() ? SH_UI_TEXT("Sell them all. Press SELL.", "Sell them all. Tap SELL.") :
     "Gullhaven! Open TRADE and sell the Textiles.";
   snprintf(out, cap, "%s: %s", captain->name, say);
   return true;
@@ -231,10 +231,16 @@ static bool onboarding_line(char* out, size_t cap) {
 static void draw_onboarding_strip() {
   char line[128];
   if (!onboarding_line(line, sizeof(line))) return;
+#if defined(SH_TOUCH_UI)
+  display.fillRect(X4_INSET_LEFT, 440, IW - X4_INSET_LEFT - X4_INSET_RIGHT, 34, PAPER);
+  display.drawFastHLine(32, 440, 736, INK);
+  text_fit_at(32, 448, 736, INK, line, 1);
+#else
   // Hub buttons end at 448; the line sits below them, inside the bottom inset.
   display.fillRect(X4_INSET_LEFT, 450, IW - X4_INSET_LEFT - X4_INSET_RIGHT, 30 - X4_INSET_BOTTOM, PAPER);
   display.drawFastHLine(X4_INSET_LEFT + 16, 450, IW - X4_INSET_LEFT - X4_INSET_RIGHT - 32, INK);
   text_fit_at(32, 451, 736, INK, line);
+#endif
 }
 
 static const char* onboarding_trait_effect(uint8_t trait) {
@@ -262,16 +268,26 @@ static void draw_onboarding_choice() {
     CaptainProfile c{};
     if (!sim_onboarding_candidate(i, &c)) continue;
     const int x = 32 + i * 248, y = 96, w = 232, h = 284;
+#if defined(SH_TOUCH_UI)
+    display.drawRect(x, y, w, h, INK);  // nothing is chosen until a captain is tapped
+#else
     if (i == x4_onboarding_pick()) frame_rect(x, y, w, h, 3);
     else display.drawRect(x, y, w, h, INK);
+#endif
     art_in_box(x + (w - 104) / 2, y + 12, X4_CAPTAINS[c.portrait], 104, 108);
     text_at(center_text(x, w, c.name), y + 126, INK, c.name);
     const char* trait = content_trait_name(c.trait);
     text_at(center_text(x, w, trait, 3), y + 160, INK, trait, 3);
     wrapped_text(x + 14, y + 210, w - 28, onboarding_trait_effect(c.trait), 2, 31);
   }
+#if defined(SH_TOUCH_UI)
+  const char* hint = "Tap a captain to hire them";
+  text_at(center_text(0, IW, hint), 390, INK, hint);
+  draw_button(x4_onboarding_button_region(3), "Skip the guided voyage");
+#else
   const char* hint = "UP / DOWN choose  /  OK hire  /  BACK skip the guided voyage";
   text_at(center_text(0, IW, hint), 400, INK, hint);
+#endif
 }
 
 // Name your captain: cycle a list; the face stays with the captain.
@@ -286,10 +302,17 @@ static void draw_onboarding_name() {
   char line[96];
   snprintf(line, sizeof(line), "%s: %s", content_trait_name(c->trait), onboarding_trait_effect(c->trait));
   wrapped_text(272, 214, 496, line, 2, 31);
+#if defined(SH_TOUCH_UI)
+  draw_button(x4_onboarding_button_region(0), "Another name");
+  snprintf(line, sizeof(line), "Sail with Captain %s", c->name);
+  draw_button(x4_onboarding_button_region(1), line);
+  draw_button(x4_onboarding_button_region(2), "Choose again");
+#else
   text_at(272, 300, INK, "UP / DOWN  another name");
   snprintf(line, sizeof(line), "OK  sail with Captain %s", c->name);
   text_fit_at(272, 334, 496, INK, line);
   text_at(272, 368, INK, "BACK  choose again");
+#endif
 }
 
 static void draw_onboarding() {
@@ -376,7 +399,7 @@ static void draw_goal_moment() {
   text_at(318, 312, INK, "Next goal");
   text_fit_at(318, 346, 440, INK, next, 3);
 
-  const char* prompt = "Press OK to continue";
+  const char* prompt = SH_UI_TEXT("Press OK to continue", "Tap to continue");
   const int promptW = text_width(prompt) + 40, promptX = (IW - promptW) / 2;
   display.fillRoundRect(promptX, 404, promptW, 46, 5, INK);
   text_at(promptX + 20, text_middle(404, 46), PAPER, prompt);
