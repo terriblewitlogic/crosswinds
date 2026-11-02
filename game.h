@@ -1,4 +1,5 @@
 #pragma once
+#include "profile.h"
 #include <Arduino.h>
 #include <stdint.h>
 #include <stddef.h>

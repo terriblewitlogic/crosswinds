@@ -484,7 +484,7 @@ static void draw_story_moment() {
   display.drawFastHLine(44, 86, IW - 88, INK);
   display.drawFastHLine(44, 89, IW - 88, INK);
   art_at(40, 104, X4_KEEPSAKES[chapter]);
-  const char* prompt = "OK to continue";
+  const char* prompt = SH_UI_TEXT("OK to continue", "Tap to continue");
   text_at(IW - 44 - text_width(prompt), 50, INK, prompt);
 
   const int x = 256, width = IW - 44 - x;
@@ -550,7 +550,7 @@ static void draw_atlas_page(uint8_t port) {
   display.setTextColor(INK);
   display.setTextDatum(lgfx::textdatum_t::top_left);
   display.drawString(def.name, 44, 34);
-  const char* prompt = "OK to continue";
+  const char* prompt = SH_UI_TEXT("OK to continue", "Tap to continue");
   text_at(IW - 44 - text_width(prompt), 50, INK, prompt);
   display.drawFastHLine(44, 86, IW - 88, INK);
   display.drawFastHLine(44, 89, IW - 88, INK);

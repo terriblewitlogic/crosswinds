@@ -162,7 +162,7 @@ static void draw_dispatch_load() {
     text_at(672 - text_width(line, 3) / 2, arrowY, INK, line, 3);
     if (selected) {
       display.fillRect(r.x, r.y + 20, 4, 60, INK);
-      text_fit_at(r.x + 572, r.y + 59, 172, INK, "Rocker");
+      text_fit_at(r.x + 572, r.y + 59, 172, INK, SH_UI_TEXT("Rocker", ""));
     }
     display.drawFastHLine(r.x, r.y + r.h, r.w, INK);
   }

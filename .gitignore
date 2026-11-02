@@ -14,3 +14,7 @@ tools/headless/build/
 tools/device_build/
 tools/device_backups/
 tools/device_resets/
+
+.pio/
+.cache/
+*.ino.cpp

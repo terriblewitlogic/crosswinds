@@ -1,3 +1,4 @@
+#if !defined(SH_X4_PRO)
 // Xteink X4 board layer: power latch, button ladder, battery gauge, USB
 // detection, idle timeout and power-off. The desktop preview build (LGFX_SDL)
 // emulates the buttons with the keyboard and turns power-off into a sleep
@@ -789,3 +790,5 @@ void board_x4_tick() {
   if (idle >= limit) board_x4_power_off();
 }
 
+
+#endif

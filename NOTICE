@@ -6,7 +6,7 @@ LovyanGFX
   The game draws through LovyanGFX 1.2.24, fetched at build time and linked into
   the firmware. Its library manifest declares MIT and BSD-2-Clause; see
   https://github.com/lovyan03/LovyanGFX for the license texts.
-  Four of its bundled fonts are used (FreeSans 12pt, FreeSansBold 18pt and 24pt,
+  Its bundled fonts are used (FreeSans 9pt and 12pt, FreeSansBold 18pt and 24pt,
   FreeSerifBold 24pt). These are GNU FreeFont faces in the Adafruit GFX format,
   distributed under the GNU GPL with the FreeFont font-embedding exception.
 
@@ -51,3 +51,28 @@ Code and text
   Most of the code and in-game writing was produced with Claude Code (Anthropic)
   and Codex (OpenAI) at the maintainer's direction. The original development
   history is not part of this repository, which starts from a single commit.
+
+FreeInk SDK (X4 Pro hardware drivers)
+  https://github.com/Free-Ink/freeink-sdk
+
+MIT License
+
+Copyright (c) 2026 FreeInk
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

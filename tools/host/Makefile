@@ -1,5 +1,5 @@
 ROOT := $(abspath ../..)
-X4_BUILD := build_x4
+X4_BUILD ?= build_x4
 X4_BIN := $(X4_BUILD)/crosswinds_host
 X4_RETURN_FS ?= $(X4_BUILD)/return_fs
 X4_RETURN_DIR ?= $(X4_BUILD)/return_ui
@@ -40,6 +40,9 @@ X4_LGFX_COBJ := $(patsubst $(LGFX)/src/lgfx/%.c,$(X4_BUILD)/lgfx/%.o,$(LGFX_C))
 X4_OBJ := $(X4_BUILD)/main.o $(X4_GAME_OBJ) $(X4_LGFX_OBJ) $(X4_LGFX_COBJ)
 
 all: $(X4_BIN)
+
+# PlatformIO temporarily creates crosswinds.ino.cpp beside the sketch.
+$(ROOT)/crosswinds.ino: ;
 
 deps: $(VENDOR_LGFX)/library.properties
 $(VENDOR_LGFX)/library.properties:
@@ -221,3 +224,7 @@ clean:
 
 -include $(X4_OBJ:.o=.d)
 .PHONY: all deps check-lgfx play-x4 shot-x4 gallery-x4 x4-test x4-nav-test x4-growth-test x4-route-geometry-test x4-delivery-test x4-watch-test load-test power-test standby-test test clean
+
+.PHONY: touch-test
+touch-test: $(X4_BIN)
+	SH_TOUCH_TEST=1 SH_FS_DIR=$(X4_BUILD)/touch_fs SDL_VIDEODRIVER=dummy ./$(X4_BIN)

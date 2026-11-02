@@ -124,6 +124,15 @@ bool x4_merchant_story_row(int row);  // the visible Parcels row holds her offer
 bool x4_merchant_story_selected();
 // The guided first voyage's captain and name screens (full-screen steps).
 bool x4_onboarding_screen();
+// Their touch targets on the panel: the three candidates, then the buttons
+// (another name, sail, choose again; skip the guided voyage).
+static inline HitRegion x4_onboarding_card_region(int i) {
+  return {(int16_t)(32 + i * 248), 96, 232, 284, (int8_t)i};
+}
+static inline HitRegion x4_onboarding_button_region(int i) {
+  if (i == 3) return {256, 424, 288, 46, 3};
+  return {272, (int16_t)(292 + i * 54), 496, 46, (int8_t)i};
+}
 uint8_t x4_onboarding_pick();        // highlighted candidate, 0..2
 uint8_t x4_onboarding_name_index();  // highlighted name while naming
 const ReturnReport* x4_return_report();

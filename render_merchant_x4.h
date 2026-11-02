@@ -139,7 +139,19 @@ static void draw_merchant_trade() {
     unsigned aboard = 0;
     if (!buying && ship) for (int c = 0; c < ship->cargoCount; ++c)
       if (ship->cargo[c].kind == CARGO_MARKET && ship->cargo[c].good == good) aboard += ship->cargo[c].quantity;
-    const char* hint = !buying && aboard && x4_merchant_quantities()[good] >= aboard ? "All aboard / DOWN -" : "UP + / DOWN -";
+    const bool allAboard = !buying && aboard && x4_merchant_quantities()[good] >= aboard;
+#if defined(SH_TOUCH_UI)
+    for (int dir : {-1, 1}) {
+      const HitRegion b = merchant_quantity_region(dir);
+      display.drawRoundRect(b.x, b.y, b.w, b.h, 6, INK);
+      const int cx = b.x + b.w / 2, cy = b.y + b.h / 2;
+      display.fillRect(cx - 18, cy - 3, 36, 7, INK);
+      if (dir > 0) display.fillRect(cx - 3, cy - 18, 7, 36, INK);
+    }
+    const char* hint = allAboard ? "All aboard" : "";
+#else
+    const char* hint = allAboard ? "All aboard / DOWN -" : "UP + / DOWN -";
+#endif
     text_at(center_text(0, IW, hint), 280, INK, hint);
     if (quote.code != SIM_OK) snprintf(line, sizeof(line), "%s", sim_result_text(quote.code));
     else if (!buying) {
@@ -178,7 +190,7 @@ static void draw_merchant_trade() {
   snprintf(line, sizeof(line), "%ld coins / %d of %d spaces used", (long)g_campaign.coins,
     ship ? sim_ship_used_capacity(*ship) : 0, ship ? sim_ship_capacity(*ship) : 0);
   text_fit_at(40, 378, 712, INK, line);
-  text_at(40, 416, INK, "OK select / Rocker: tabs");
+  text_at(40, 416, INK, SH_UI_TEXT("OK select / Rocker: tabs", ""));
 }
 
 // The Grey Passenger's sealed offer: who and what it pays, never what or where.
@@ -246,7 +258,7 @@ static void draw_merchant_packages() {
     draw_button(merchant_pager_region(0), "PREV");
     draw_button(merchant_pager_region(1), "NEXT");
   }
-  text_at(40, 416, INK, "OK select / Rocker: tabs");
+  text_at(40, 416, INK, SH_UI_TEXT("OK select / Rocker: tabs", ""));
 }
 
 static void draw_merchant_routes() {

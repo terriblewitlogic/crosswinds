@@ -18,6 +18,10 @@ static inline HitRegion merchant_adjust_region(int row, int dir) {
   const HitRegion r = merchant_row_region(row);
   return {(int16_t)(dir < 0 ? 560 : 720), (int16_t)(r.y + 4), (int16_t)(dir < 0 ? 64 : 56), 52, (int8_t)(dir < 0 ? 0 : 1)};
 }
+// The panel's - and + either side of the amount being traded.
+static inline HitRegion merchant_quantity_region(int dir) {
+  return {(int16_t)(dir < 0 ? 224 : 480), 206, 96, 68, (int8_t)(dir < 0 ? 0 : 1)};
+}
 static inline HitRegion merchant_footer_region(int id) {
   if (id == 2) return {24,16,96,40,2};
   return {(int16_t)(id == 0 ? 32 : 288),380,(int16_t)(id == 0 ? 240 : 480),48,(int8_t)id};

@@ -233,6 +233,13 @@ static bool x4_merchant_touch(int x, int y) {
     HitRegion r = merchant_control_region(row);
     if (hit_test(&r, 1, x, y) >= 0) { x4_merchant_row(row); return true; }
   }
+#if defined(SH_TOUCH_UI)
+  if (merchantDraft.editing && g_ui.card == CARD_TRADE)
+    for (int dir : {-1, 1}) {
+      HitRegion r = merchant_quantity_region(dir);
+      if (hit_test(&r, 1, x, y) >= 0) { x4_merchant_quantity(dir); return true; }
+    }
+#endif
   if (merchantDraft.editing) return true;
   for (int row = 0; row < 2; ++row) {
     HitRegion r = merchant_row_region(row);
